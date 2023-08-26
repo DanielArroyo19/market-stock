@@ -1,0 +1,45 @@
+plugins {
+    id 'org.springframework.boot' version '2.5.1'
+}
+
+group 'com.market.stock'
+
+dependencies {
+    implementation project(':libraries:stock-repository')
+    implementation project(':libraries:persistence:dynamodb')
+    implementation project(':libraries:protobuf:messages')
+
+    implementation 'org.springframework.boot:spring-boot-starter:2.5.1'
+    implementation 'org.springframework:spring-web:5.3.8'
+    implementation 'com.amazonaws:aws-java-sdk-dynamodb:1.11.937'
+    implementation 'com.amazonaws:aws-java-sdk-sts:1.11.918'
+    implementation 'org.springframework.kafka:spring-kafka:2.7.2'
+    implementation 'com.google.protobuf:protobuf-java:3.18.3'
+    implementation 'com.yahoofinance-api:YahooFinanceAPI:3.12.3'
+
+
+
+    testImplementation 'com.google.guava:guava:28.2-jre'
+
+    testImplementation('org.springframework.boot:spring-boot-starter-test:2.5.1') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+        exclude group: 'com.vaadin.external.google', module: 'android-json'
+    }
+}
+
+jar {
+    archiveBaseName = 'quote-poll'
+    archiveVersion =  '0.1.0'
+    manifest {
+        attributes(
+                'Main-Class': 'com.market.stock.quote.poll.QuotePoll'
+        )
+    }
+}
+
+configurations {
+    implementation {
+        exclude group: 'org.apache.logging.log4j', module: 'log4j-api'
+        exclude group: 'org.apache.logging.log4j', module: 'log4j-to-slf4j'
+    }
+}

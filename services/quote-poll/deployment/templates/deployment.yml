@@ -1,0 +1,31 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: "quote-poll"
+  labels:
+    app.kubernetes.io/name: "quote-poll"
+spec:
+  schedule: "*/5 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            app.kubernetes.io/name: "quote-poll"
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: quote-poll
+              image: quote-poll # Image that will be used to containers in the cluster
+              imagePullPolicy: Never
+              env:
+                - name: DYNAMO_URL
+                  value: '{{ .Values.env.DYNAMO_ENDPOINT }}'
+                - name: KAFKA_BOOSTRAP_URL
+                  value: '{{ .Values.env.KAFKA_BOOSTRAP_URL }}'
+                {{- if .Values.localDev }}
+                - name: AWS_ACCESS_KEY_ID
+                  value: "{{ .Values.localDevEnv.LOCAL_AWS_ACCESS_KEY_ID }}"
+                - name: AWS_SECRET_ACCESS_KEY
+                  value: "{{ .Values.localDevEnv.LOCAL_AWS_SECRET_ACCESS_KEY }}"
+                {{- end }}

@@ -1,0 +1,24 @@
+plugins{
+    id "com.google.protobuf" version "0.8.17"
+}
+
+protobuf {
+    protoc {
+        artifact = 'com.google.protobuf:protoc:3.18.0'
+    }
+}
+
+sourceSets{
+    main{
+        java{
+            srcDirs'build/generated/source/proto/main/java'
+        }
+    }
+}
+
+group 'com.market.stock.proto'
+
+dependencies{
+    implementation 'com.github.daniel-shuy:kafka-protobuf-serde:2.2.0'
+    implementation 'com.google.protobuf:protobuf-java:3.18.0'
+}

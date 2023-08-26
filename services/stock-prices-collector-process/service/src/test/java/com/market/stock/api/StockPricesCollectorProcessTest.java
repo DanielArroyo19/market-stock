@@ -1,0 +1,62 @@
+package com.market.stock.api;
+
+import com.market.stock.proto.QuoteMessage;
+import com.market.stock.serdes.QuoteValueSerde;
+import org.apache.kafka.clients.consumer.ConsumerConfig;
+import org.apache.kafka.common.serialization.Serdes;
+import org.apache.kafka.streams.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import java.util.Properties;
+import java.util.UUID;
+
+import static com.market.stock.proto.QuoteMessage.*;
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+
+public class StockPricesCollectorProcessTest {
+
+    private TopologyTestDriver testDriver;
+    private TestInputTopic<String, Quote> inputTopic;
+    private TestOutputTopic<String, Quote> outputTopic;
+
+    @BeforeEach
+    public void setUp() {
+        // Setup Kafka Streams properties
+        Properties props = new Properties();
+        props.put(StreamsConfig.APPLICATION_ID_CONFIG, "test-app-" + UUID.randomUUID());
+        props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "dummy:1234"); // Doesn't matter for testing
+        props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
+        props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass());
+        props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
+
+        // Create the topology and build the test driver
+        StockPricesCollectorProcess stockPricesCollectorProcess = new StockPricesCollectorProcess();
+        Topology topology = stockPricesCollectorProcess.buildTopology();
+        testDriver = new TopologyTestDriver(topology, props);
+
+        // Set up input and output topics
+        inputTopic = testDriver.createInputTopic("market.quotes.price",
+                Serdes.String().serializer(), new QuoteValueSerde().serializer());
+        outputTopic = testDriver.createOutputTopic("market.stock.price.last",
+                Serdes.String().deserializer(), new QuoteValueSerde().deserializer());
+    }
+
+    @AfterEach
+    public void tearDown() {
+        testDriver.close();
+    }
+
+    @Test
+    public void testStockPricesCollectorProcess() {
+        // Send input data to the input topic
+        inputTopic.pipeInput("AAL", Quote.newBuilder().setSymbol(Quote.Symbol.newBuilder().setSymbol("AAL").build()).setLast(4.0).build());
+
+        // Read and verify output from the output topic
+        KeyValue<String, Quote> result = outputTopic.readKeyValue();
+        System.out.println("Aqui deberia" + result.value);
+        assertThat(result).isNotNull();
+        // Add your assertions based on the processing logic in StockPricesCollectorProcess
+    }
+}

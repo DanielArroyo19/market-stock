@@ -1,0 +1,5 @@
+kafka-python
+yfinance==0.2.24
+boto3
+protobuf
+google

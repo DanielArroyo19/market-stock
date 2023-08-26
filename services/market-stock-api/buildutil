@@ -1,0 +1,14 @@
+docker build --build-arg JAR_FILE=service/build/libs/service.jar -t service/market-stock-api .
+docker run -d -p 8080:8080 service/market-stock-api
+
+
+kubectl run market-stock-api --image=service/market-stock-api:latest --port=8080 --image-pull-policy Never
+
+
+minikube docker-env | Invoke-Expression
+
+(pushd services\market-stock-api\service) -and (skaffold dev --profile minikube  --namespace default --force-colors --port-forward)
+
+skaffold dev --profile minikube  --namespace default --force-colors --port-forward
+
+kubectl expose deployment market-stock-api --type=LoadBalancer

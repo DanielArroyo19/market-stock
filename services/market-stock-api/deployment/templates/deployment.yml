@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment # Kubernetes resource kind we are creating
+metadata:
+  name: market-stock-api
+spec:
+  selector:
+    matchLabels:
+      app: market-stock-api
+  replicas: 2 # Number of replicas that will be created for this deployment
+  template:
+    metadata:
+      labels:
+        app: market-stock-api
+    spec:
+      containers:
+        - name: market-stock-api
+          image: market-stock-api # Image that will be used to containers in the cluster
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080 # The port that the container is running on in the cluster
+          env:
+            - name: DYNAMO_URL
+              value: '{{ .Values.env.DYNAMO_URL }}'
+            {{- if .Values.localDev }}
+            - name: AWS_ACCESS_KEY_ID
+              value: "{{ .Values.localDevEnv.LOCAL_AWS_ACCESS_KEY_ID }}"
+            - name: AWS_SECRET_ACCESS_KEY
+              value: "{{ .Values.localDevEnv.LOCAL_AWS_SECRET_ACCESS_KEY }}"
+            {{- end }}

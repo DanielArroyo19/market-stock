@@ -1,0 +1,25 @@
+apiVersion: skaffold/v2beta6
+kind: Config
+
+profiles:
+  - name: minikube
+    activation:
+      - kubeContext: minikube
+        command: dev
+    deploy:
+      kubeContext: minikube
+
+  - name: ephemeral
+    deploy:
+      kubeContext: ephemeral
+
+deploy:
+  helm:
+    releases:
+      - name: dynamodb
+        chartPath: ./
+portForward:
+  - resourceType: service
+    resourceName: dynamodb
+    port: 8000  # Specify the internal port of the service
+    localPort: 8000  # Specify the desired external port

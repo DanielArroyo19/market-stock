@@ -1,0 +1,22 @@
+replicaCount: 1
+requestMemory: 0\
+
+ingress:
+  albIngressController:
+    inboundCidr: "<from skaffold file yml>"
+    environment: "<from skaffold file yml>"
+    acmCertificateArn: "<from skaffold file yml>"
+    policy: "ELBSecurityPolicy-TLS-1-1-2017-01"
+  externalDns: "<from skaffold file yml>"
+
+image:
+  repository: "image for the app"
+
+env:
+  DYNAMO_ENDPOINT: "<from environment yml>"
+  KAFKA_BOOSTRAP_URL: "<from environment yml>"
+
+localDev: true
+localDevEnv:
+  LOCAL_AWS_ACCESS_KEY_ID: "root"
+  LOCAL_AWS_SECRET_ACCESS_KEY: "root"

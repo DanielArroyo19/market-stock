@@ -1,0 +1,74 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dynamodb-data
+data:
+  data.json: |-
+    {
+      "CreateTable": {
+        "TableName": "YourTableName",
+        "KeySchema": [
+          {
+            "AttributeName": "id",
+            "KeyType": "HASH"
+          }
+        ],
+        "AttributeDefinitions": [
+          {
+            "AttributeName": "id",
+            "AttributeType": "S"
+          }
+        ],
+        "ProvisionedThroughput": {
+          "ReadCapacityUnits": 5,
+          "WriteCapacityUnits": 5
+        }
+      },
+      "Items": [
+        {
+          "PutRequest": {
+            "Item": {
+              "id": {
+                "S": "1"
+              },
+              "name": {
+                "S": "John Doe"
+              },
+              "age": {
+                "N": "30"
+              }
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "id": {
+                "S": "2"
+              },
+              "name": {
+                "S": "Jane Smith"
+              },
+              "age": {
+                "N": "25"
+              }
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "id": {
+                "S": "3"
+              },
+              "name": {
+                "S": "Alex Johnson"
+              },
+              "age": {
+                "N": "35"
+              }
+            }
+          }
+        }
+      ]
+    }

@@ -1,0 +1,22 @@
+apiVersion: skaffold/v2beta6
+kind: Config
+
+deploy:
+  kubeContext: minikube
+
+profiles:
+  - name: minikube
+    deploy:
+      kubeContext: minikube
+      helm:
+        releases:
+          - name: cp-helm-charts
+            version: "0.6.1"
+            chartPath: confluentinc/cp-helm-charts
+            valuesFiles:
+              - values.yaml
+            setValues:
+              cp-kafka.configurationOverrides:
+                "advertised\\.listeners": |-
+                  EXTERNAL://127.0.0.1:31090
+            remote: true

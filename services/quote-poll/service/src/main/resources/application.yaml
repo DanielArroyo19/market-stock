@@ -1,0 +1,22 @@
+dynamo:
+  url: ${DYNAMO_URL}
+  table: Stock
+
+# Producer properties
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: ${KAFKA_BOOSTRAP_URL}
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: com.market.stock.serdes.QuoteValueSerde
+      group-id: quote_poll
+
+topic:
+  name:
+    producer: market.quotes.price
+
+finance:
+  yahoo:
+    all:
+      url: https://query1.finance.yahoo.com/v6/finance/quote?symbols=AAL,VOO,VTI
+    url: https://query1.finance.yahoo.com/v6/finance/quote?symbols=

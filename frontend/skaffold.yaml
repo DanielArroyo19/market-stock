@@ -1,0 +1,33 @@
+apiVersion: skaffold/v2beta6
+kind: Config
+build:
+  artifacts:
+    - image: market-stock-front
+      sync:
+        infer:
+          - '**/*.ts'
+          - '**/*.tsx'
+          - '**/*.css'
+      docker:
+        dockerfile: Dockerfile
+
+deploy:
+  kubeContext: minikube
+
+profiles:
+  - name: minikube
+    activation:
+      - kubeContext: minikube
+        command: dev
+    deploy:
+      kubeContext: minikube
+      helm:
+        releases:
+          - name: market-stock-front
+            chartPath: deployment
+            artifactOverrides:
+              image.repository: market-stock-front
+            valuesFiles:
+              - ../environments/minikube.yml
+            setValues:
+              replicaCount: 1

@@ -1,0 +1,32 @@
+apiVersion: skaffold/v2beta6
+kind: Config
+build:
+  artifacts:
+    - image: yfinance-poll
+      context: ../..
+      docker:
+        dockerfile: Dockerfile
+
+deploy:
+  kubeContext: minikube
+
+profiles:
+  - name: minikube
+    activation:
+      - kubeContext: minikube
+        command: dev
+    deploy:
+      kubeContext: minikube
+      helm:
+        releases:
+          - name: yfinance-poll
+            chartPath: deployment
+            valuesFiles:
+              - ../../environments/minikube.yml
+            setValues:
+              replicaCount: 1
+              ingress.albIngressController.inboundCidr: 0.0.0.0/8
+              ingress.albIngressController.environment: "MINIKUBE"
+              ingress.albIngressController.acmCertificateArn: "unused"
+              ingress.externalDns: "yfinance-poll"
+              datadog.applicationPerformanceMonitoring.environment: "minikube"

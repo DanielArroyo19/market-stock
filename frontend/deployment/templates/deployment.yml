@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment # Kubernetes resource kind we are creating
+metadata:
+  name: market-stock-front
+spec:
+  selector:
+    matchLabels:
+      app: market-stock-front
+  replicas: 2 # Number of replicas that will be created for this deployment
+  template:
+    metadata:
+      labels:
+        app: market-stock-front
+    spec:
+      containers:
+        - name: market-stock-front
+          image: market-stock-front # Image that will be used to containers in the cluster
+          imagePullPolicy: Never
+          env:
+            - name: market-stock-front
+              value: 'market-stock-front'
+            - name: REACT_APP_API_ROOT_URL
+              value: {{.Values.env.REACT_APP_API_ROOT_URL}}
+      restartPolicy: Always

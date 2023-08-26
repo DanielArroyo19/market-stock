@@ -1,0 +1,3 @@
+dynamo:
+  url: ${DYNAMO_URL}
+  table: Stock

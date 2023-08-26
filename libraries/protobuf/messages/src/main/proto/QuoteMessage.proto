@@ -1,0 +1,25 @@
+syntax="proto3";
+
+package Market;
+
+import"timestamp.proto";
+
+option java_package="com.market.stock.proto";
+
+message Quote {
+  Symbol symbol = 1;
+  Currency currency = 2;
+  double last = 3;
+  double bid = 4;
+  double ask = 5;
+  google.protobuf.Timestamp transactionTimestamp = 6;
+
+message Symbol {
+    string symbol = 1;
+  }
+
+  enum Currency {
+    USD = 0; // If not specified, the default value is 0.
+    MXN = 1;
+  }
+}

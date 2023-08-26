@@ -1,0 +1,6034 @@
+{
+  "defaultKeyStatistics": {
+    "annualHoldingsTurnover": {},
+    "enterpriseToRevenue": {
+      "raw": 3.723,
+      "fmt": "3.72"
+    },
+    "beta3Year": {},
+    "profitMargins": {
+      "raw": -0.61528,
+      "fmt": "-61.53%"
+    },
+    "enterpriseToEbitda": {
+      "raw": -4.438,
+      "fmt": "-4.44"
+    },
+    "52WeekChange": {
+      "raw": 0.701005,
+      "fmt": "70.10%"
+    },
+    "morningStarRiskRating": {},
+    "forwardEps": {
+      "raw": -0.07,
+      "fmt": "-0.07"
+    },
+    "revenueQuarterlyGrowth": {},
+    "sharesOutstanding": {
+      "raw": 641382976,
+      "fmt": "641.38M",
+      "longFmt": "641,382,976"
+    },
+    "fundInceptionDate": {},
+    "annualReportExpenseRatio": {},
+    "totalAssets": {},
+    "bookValue": {
+      "raw": -12.387,
+      "fmt": "-12.39"
+    },
+    "sharesShort": {
+      "raw": 81067596,
+      "fmt": "81.07M",
+      "longFmt": "81,067,596"
+    },
+    "sharesPercentSharesOut": {
+      "raw": 0.12640001,
+      "fmt": "12.64%"
+    },
+    "fundFamily": null,
+    "lastFiscalYearEnd": {
+      "raw": 1609372800,
+      "fmt": "2020-12-31"
+    },
+    "heldPercentInstitutions": {
+      "raw": 0.52187,
+      "fmt": "52.19%"
+    },
+    "netIncomeToCommon": {
+      "raw": -7894000128,
+      "fmt": "-7.89B",
+      "longFmt": "-7,894,000,128"
+    },
+    "trailingEps": {
+      "raw": -14.725,
+      "fmt": "-14.73"
+    },
+    "lastDividendValue": {
+      "raw": 0.1,
+      "fmt": "0.10"
+    },
+    "SandP52WeekChange": {
+      "raw": 0.36831248,
+      "fmt": "36.83%"
+    },
+    "priceToBook": {},
+    "heldPercentInsiders": {
+      "raw": 0.00984,
+      "fmt": "0.98%"
+    },
+    "nextFiscalYearEnd": {
+      "raw": 1672444800,
+      "fmt": "2022-12-31"
+    },
+    "yield": {},
+    "mostRecentQuarter": {
+      "raw": 1617148800,
+      "fmt": "2021-03-31"
+    },
+    "shortRatio": {
+      "raw": 2.54,
+      "fmt": "2.54"
+    },
+    "sharesShortPreviousMonthDate": {
+      "raw": 1620950400,
+      "fmt": "2021-05-14"
+    },
+    "floatShares": {
+      "raw": 636290541,
+      "fmt": "636.29M",
+      "longFmt": "636,290,541"
+    },
+    "beta": {
+      "raw": 1.850543,
+      "fmt": "1.85"
+    },
+    "enterpriseValue": {
+      "raw": 47761907712,
+      "fmt": "47.76B",
+      "longFmt": "47,761,907,712"
+    },
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "threeYearAverageReturn": {},
+    "lastSplitDate": {
+      "raw": 1386547200,
+      "fmt": "2013-12-09"
+    },
+    "lastSplitFactor": "0:1",
+    "legalType": null,
+    "lastDividendDate": {
+      "raw": 1580774400,
+      "fmt": "2020-02-04"
+    },
+    "morningStarOverallRating": {},
+    "earningsQuarterlyGrowth": {},
+    "priceToSalesTrailing12Months": {},
+    "dateShortInterest": {
+      "raw": 1623715200,
+      "fmt": "2021-06-15"
+    },
+    "pegRatio": {
+      "raw": 0.05,
+      "fmt": "0.05"
+    },
+    "ytdReturn": {},
+    "forwardPE": {
+      "raw": -290.7143,
+      "fmt": "-290.71"
+    },
+    "maxAge": 1,
+    "lastCapGain": {},
+    "shortPercentOfFloat": {
+      "raw": 0.142,
+      "fmt": "14.20%"
+    },
+    "sharesShortPriorMonth": {
+      "raw": 84496920,
+      "fmt": "84.5M",
+      "longFmt": "84,496,920"
+    },
+    "impliedSharesOutstanding": {},
+    "category": null,
+    "fiveYearAverageReturn": {}
+  },
+  "details": {},
+  "summaryProfile": {
+    "zip": "76155",
+    "sector": "Industrials",
+    "fullTimeEmployees": 113200,
+    "longBusinessSummary": "American Airlines Group Inc., through its subsidiaries, operates as a network air carrier. The company provides scheduled air transportation services for passengers and cargo through its hubs in Charlotte, Chicago, Dallas/Fort Worth, Los Angeles, Miami, New York, Philadelphia, Phoenix, and Washington, D.C., as well as through partner gateways in London, Madrid, Seattle/Tacoma, Sydney, and Tokyo. As of December 31, 2020, it operated a mainline fleet of 855 aircraft. The company was formerly known as AMR Corporation and changed its name to American Airlines Group Inc. in December 2013. American Airlines Group Inc. was founded in 1930 and is headquartered in Fort Worth, Texas.",
+    "city": "Fort Worth",
+    "phone": "817 963 1234",
+    "state": "TX",
+    "country": "United States",
+    "companyOfficers": [],
+    "website": "http://www.aa.com",
+    "maxAge": 86400,
+    "address1": "1 Skyview Drive",
+    "industry": "Airlines"
+  },
+  "recommendationTrend": {
+    "trend": [
+      {
+        "period": "0m",
+        "strongBuy": 4,
+        "buy": 5,
+        "hold": 7,
+        "sell": 2,
+        "strongSell": 0
+      },
+      {
+        "period": "-1m",
+        "strongBuy": 1,
+        "buy": 0,
+        "hold": 0,
+        "sell": 0,
+        "strongSell": 0
+      },
+      {
+        "period": "-2m",
+        "strongBuy": 1,
+        "buy": 0,
+        "hold": 0,
+        "sell": 0,
+        "strongSell": 0
+      },
+      {
+        "period": "-3m",
+        "strongBuy": 1,
+        "buy": 0,
+        "hold": 0,
+        "sell": 0,
+        "strongSell": 0
+      }
+    ],
+    "maxAge": 86400
+  },
+  "financialsTemplate": {
+    "code": "T",
+    "maxAge": 1
+  },
+  "majorDirectHolders": {
+    "holders": [],
+    "maxAge": 1
+  },
+  "earnings": {
+    "maxAge": 86400,
+    "earningsChart": {
+      "quarterly": [
+        {
+          "date": "2Q2020",
+          "actual": {
+            "raw": -7.82,
+            "fmt": "-7.82"
+          },
+          "estimate": {
+            "raw": -7.7,
+            "fmt": "-7.70"
+          }
+        },
+        {
+          "date": "3Q2020",
+          "actual": {
+            "raw": -5.54,
+            "fmt": "-5.54"
+          },
+          "estimate": {
+            "raw": -5.88,
+            "fmt": "-5.88"
+          }
+        },
+        {
+          "date": "4Q2020",
+          "actual": {
+            "raw": -3.86,
+            "fmt": "-3.86"
+          },
+          "estimate": {
+            "raw": -4.11,
+            "fmt": "-4.11"
+          }
+        },
+        {
+          "date": "1Q2021",
+          "actual": {
+            "raw": -4.32,
+            "fmt": "-4.32"
+          },
+          "estimate": {
+            "raw": -4.3,
+            "fmt": "-4.30"
+          }
+        }
+      ],
+      "currentQuarterEstimate": {
+        "raw": -2.41,
+        "fmt": "-2.41"
+      },
+      "currentQuarterEstimateDate": "2Q",
+      "currentQuarterEstimateYear": 2021,
+      "earningsDate": [
+        {
+          "raw": 1626825600,
+          "fmt": "2021-07-21"
+        },
+        {
+          "raw": 1627257600,
+          "fmt": "2021-07-26"
+        }
+      ]
+    },
+    "financialsChart": {
+      "yearly": [
+        {
+          "date": 2017,
+          "revenue": {
+            "raw": 42622000000,
+            "fmt": "42.62B",
+            "longFmt": "42,622,000,000"
+          },
+          "earnings": {
+            "raw": 1282000000,
+            "fmt": "1.28B",
+            "longFmt": "1,282,000,000"
+          }
+        },
+        {
+          "date": 2018,
+          "revenue": {
+            "raw": 44541000000,
+            "fmt": "44.54B",
+            "longFmt": "44,541,000,000"
+          },
+          "earnings": {
+            "raw": 1412000000,
+            "fmt": "1.41B",
+            "longFmt": "1,412,000,000"
+          }
+        },
+        {
+          "date": 2019,
+          "revenue": {
+            "raw": 45768000000,
+            "fmt": "45.77B",
+            "longFmt": "45,768,000,000"
+          },
+          "earnings": {
+            "raw": 1686000000,
+            "fmt": "1.69B",
+            "longFmt": "1,686,000,000"
+          }
+        },
+        {
+          "date": 2020,
+          "revenue": {
+            "raw": 17337000000,
+            "fmt": "17.34B",
+            "longFmt": "17,337,000,000"
+          },
+          "earnings": {
+            "raw": -8885000000,
+            "fmt": "-8.88B",
+            "longFmt": "-8,885,000,000"
+          }
+        }
+      ],
+      "quarterly": [
+        {
+          "date": "2Q2020",
+          "revenue": {
+            "raw": 1622000000,
+            "fmt": "1.62B",
+            "longFmt": "1,622,000,000"
+          },
+          "earnings": {
+            "raw": -2067000000,
+            "fmt": "-2.07B",
+            "longFmt": "-2,067,000,000"
+          }
+        },
+        {
+          "date": "3Q2020",
+          "revenue": {
+            "raw": 3173000000,
+            "fmt": "3.17B",
+            "longFmt": "3,173,000,000"
+          },
+          "earnings": {
+            "raw": -2399000000,
+            "fmt": "-2.4B",
+            "longFmt": "-2,399,000,000"
+          }
+        },
+        {
+          "date": "4Q2020",
+          "revenue": {
+            "raw": 4028000000,
+            "fmt": "4.03B",
+            "longFmt": "4,028,000,000"
+          },
+          "earnings": {
+            "raw": -2178000000,
+            "fmt": "-2.18B",
+            "longFmt": "-2,178,000,000"
+          }
+        },
+        {
+          "date": "1Q2021",
+          "revenue": {
+            "raw": 4008000000,
+            "fmt": "4.01B",
+            "longFmt": "4,008,000,000"
+          },
+          "earnings": {
+            "raw": -1250000000,
+            "fmt": "-1.25B",
+            "longFmt": "-1,250,000,000"
+          }
+        }
+      ]
+    },
+    "financialCurrency": "USD"
+  },
+  "price": {
+    "quoteSourceName": "Nasdaq Real Time Price",
+    "regularMarketOpen": {
+      "raw": 19.88,
+      "fmt": "19.88"
+    },
+    "averageDailyVolume3Month": {
+      "raw": 32004727,
+      "fmt": "32M",
+      "longFmt": "32,004,727"
+    },
+    "exchange": "NMS",
+    "regularMarketTime": 1625774402,
+    "volume24Hr": {},
+    "regularMarketDayHigh": {
+      "raw": 20.64,
+      "fmt": "20.64"
+    },
+    "shortName": "American Airlines Group, Inc.",
+    "averageDailyVolume10Day": {
+      "raw": 25533716,
+      "fmt": "25.53M",
+      "longFmt": "25,533,716"
+    },
+    "longName": "American Airlines Group Inc.",
+    "regularMarketChange": {
+      "raw": 0.040000916,
+      "fmt": "0.04"
+    },
+    "currencySymbol": "$",
+    "regularMarketPreviousClose": {
+      "raw": 20.31,
+      "fmt": "20.31"
+    },
+    "postMarketTime": 1625788796,
+    "preMarketPrice": {},
+    "exchangeDataDelayedBy": 0,
+    "toCurrency": null,
+    "postMarketChange": {
+      "raw": 0.0699997,
+      "fmt": "0.07"
+    },
+    "postMarketPrice": {
+      "raw": 20.42,
+      "fmt": "20.42"
+    },
+    "exchangeName": "NasdaqGS",
+    "preMarketChange": {},
+    "circulatingSupply": {},
+    "regularMarketDayLow": {
+      "raw": 19.655,
+      "fmt": "19.66"
+    },
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "currency": "USD",
+    "regularMarketPrice": {
+      "raw": 20.35,
+      "fmt": "20.35"
+    },
+    "regularMarketVolume": {
+      "raw": 28422307,
+      "fmt": "28.42M",
+      "longFmt": "28,422,307.00"
+    },
+    "lastMarket": null,
+    "regularMarketSource": "FREE_REALTIME",
+    "openInterest": {},
+    "marketState": "PREPRE",
+    "underlyingSymbol": null,
+    "marketCap": {
+      "raw": 13052143616,
+      "fmt": "13.05B",
+      "longFmt": "13,052,143,616.00"
+    },
+    "quoteType": "EQUITY",
+    "volumeAllCurrencies": {},
+    "postMarketSource": "FREE_REALTIME",
+    "strikePrice": {},
+    "symbol": "AAL",
+    "postMarketChangePercent": {
+      "raw": 0.00343979,
+      "fmt": "0.34%"
+    },
+    "preMarketSource": "FREE_REALTIME",
+    "maxAge": 1,
+    "fromCurrency": null,
+    "regularMarketChangePercent": {
+      "raw": 0.0019695184,
+      "fmt": "0.20%"
+    }
+  },
+  "fundOwnership": {
+    "maxAge": 1,
+    "ownershipList": [
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "Vanguard/Primecap Fund",
+        "pctHeld": {
+          "raw": 0.0341,
+          "fmt": "3.41%"
+        },
+        "position": {
+          "raw": 21847513,
+          "fmt": "21.85M",
+          "longFmt": "21,847,513"
+        },
+        "value": {
+          "raw": 522155560,
+          "fmt": "522.16M",
+          "longFmt": "522,155,560"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "ETF Series Solutions-U.S. Global Jets ETF",
+        "pctHeld": {
+          "raw": 0.0295,
+          "fmt": "2.95%"
+        },
+        "position": {
+          "raw": 18901832,
+          "fmt": "18.9M",
+          "longFmt": "18,901,832"
+        },
+        "value": {
+          "raw": 451753784,
+          "fmt": "451.75M",
+          "longFmt": "451,753,784"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "U.S. Global Airline ETF",
+        "pctHeld": {
+          "raw": 0.0295,
+          "fmt": "2.95%"
+        },
+        "position": {
+          "raw": 18901832,
+          "fmt": "18.9M",
+          "longFmt": "18,901,832"
+        },
+        "value": {
+          "raw": 451753784,
+          "fmt": "451.75M",
+          "longFmt": "451,753,784"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "Vanguard Total Stock Market Index Fund",
+        "pctHeld": {
+          "raw": 0.028099999,
+          "fmt": "2.81%"
+        },
+        "position": {
+          "raw": 18038147,
+          "fmt": "18.04M",
+          "longFmt": "18,038,147"
+        },
+        "value": {
+          "raw": 431111713,
+          "fmt": "431.11M",
+          "longFmt": "431,111,713"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "Vanguard 500 Index Fund",
+        "pctHeld": {
+          "raw": 0.020399999,
+          "fmt": "2.04%"
+        },
+        "position": {
+          "raw": 13097606,
+          "fmt": "13.1M",
+          "longFmt": "13,097,606"
+        },
+        "value": {
+          "raw": 313032783,
+          "fmt": "313.03M",
+          "longFmt": "313,032,783"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "Vanguard Small-Cap Index Fund",
+        "pctHeld": {
+          "raw": 0.012200001,
+          "fmt": "1.22%"
+        },
+        "position": {
+          "raw": 7812354,
+          "fmt": "7.81M",
+          "longFmt": "7,812,354"
+        },
+        "value": {
+          "raw": 186715260,
+          "fmt": "186.72M",
+          "longFmt": "186,715,260"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "Vanguard Mid-Cap Index Fund",
+        "pctHeld": {
+          "raw": 0.0112,
+          "fmt": "1.12%"
+        },
+        "position": {
+          "raw": 7167163,
+          "fmt": "7.17M",
+          "longFmt": "7,167,163"
+        },
+        "value": {
+          "raw": 171295195,
+          "fmt": "171.3M",
+          "longFmt": "171,295,195"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1622419200,
+          "fmt": "2021-05-31"
+        },
+        "organization": "SPDR S&P 500 ETF Trust",
+        "pctHeld": {
+          "raw": 0.0095999995,
+          "fmt": "0.96%"
+        },
+        "position": {
+          "raw": 6189274,
+          "fmt": "6.19M",
+          "longFmt": "6,189,274"
+        },
+        "value": {
+          "raw": 150028001,
+          "fmt": "150.03M",
+          "longFmt": "150,028,001"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1619740800,
+          "fmt": "2021-04-30"
+        },
+        "organization": "Fidelity 500 Index Fund",
+        "pctHeld": {
+          "raw": 0.0092,
+          "fmt": "0.92%"
+        },
+        "position": {
+          "raw": 5908025,
+          "fmt": "5.91M",
+          "longFmt": "5,908,025"
+        },
+        "value": {
+          "raw": 128322303,
+          "fmt": "128.32M",
+          "longFmt": "128,322,303"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1619740800,
+          "fmt": "2021-04-30"
+        },
+        "organization": "Primecap Odyssey Aggressive Growth Fund",
+        "pctHeld": {
+          "raw": 0.0086,
+          "fmt": "0.86%"
+        },
+        "position": {
+          "raw": 5544900,
+          "fmt": "5.54M",
+          "longFmt": "5,544,900"
+        },
+        "value": {
+          "raw": 120435228,
+          "fmt": "120.44M",
+          "longFmt": "120,435,228"
+        }
+      }
+    ]
+  },
+  "insiderTransactions": {
+    "transactions": [
+      {
+        "filerName": "HART MATTHEW J",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 6289,
+          "fmt": "6.29k",
+          "longFmt": "6,289"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "STEENLAND DOUGLAS M",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 6289,
+          "fmt": "6.29k",
+          "longFmt": "6,289"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "BENJAMIN JEFFREY D",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 6289,
+          "fmt": "6.29k",
+          "longFmt": "6,289"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "O LEARY DENISE M",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 6289,
+          "fmt": "6.29k",
+          "longFmt": "6,289"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "CAHILL JOHN T",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 6289,
+          "fmt": "6.29k",
+          "longFmt": "6,289"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ALBAUGH JAMES F",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 6289,
+          "fmt": "6.29k",
+          "longFmt": "6,289"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KRONICK SUSAN D",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 6289,
+          "fmt": "6.29k",
+          "longFmt": "6,289"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EMBLER MICHAEL J",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 6289,
+          "fmt": "6.29k",
+          "longFmt": "6,289"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ROBINSON RAY M",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 6289,
+          "fmt": "6.29k",
+          "longFmt": "6,289"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "BROWN ADRIANE M",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 6289,
+          "fmt": "6.29k",
+          "longFmt": "6,289"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "NESBITT MARTIN H",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 6289,
+          "fmt": "6.29k",
+          "longFmt": "6,289"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "BROWN ADRIANE M",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1613692800,
+          "fmt": "2021-02-19"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 2375,
+          "fmt": "2.38k",
+          "longFmt": "2,375"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "JOHNSON STEPHEN L",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1613433600,
+          "fmt": "2021-02-16"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 158530,
+          "fmt": "158.53k",
+          "longFmt": "158,530"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "PARKER WILLIAM DOUGLAS",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1613433600,
+          "fmt": "2021-02-16"
+        },
+        "filerRelation": "Chief Executive Officer",
+        "shares": {
+          "raw": 404040,
+          "fmt": "404.04k",
+          "longFmt": "404,040"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EBERWEIN ELISE R",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1613433600,
+          "fmt": "2021-02-16"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 158530,
+          "fmt": "158.53k",
+          "longFmt": "158,530"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KERR DEREK J",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1613433600,
+          "fmt": "2021-02-16"
+        },
+        "filerRelation": "Chief Financial Officer",
+        "shares": {
+          "raw": 158530,
+          "fmt": "158.53k",
+          "longFmt": "158,530"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1613433600,
+          "fmt": "2021-02-16"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 234568,
+          "fmt": "234.57k",
+          "longFmt": "234,568"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "LEIBMAN MAYA",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1613433600,
+          "fmt": "2021-02-16"
+        },
+        "filerRelation": "Chief Technology Officer",
+        "shares": {
+          "raw": 156004,
+          "fmt": "156k",
+          "longFmt": "156,004"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "STEENLAND DOUGLAS M",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1602115200,
+          "fmt": "2020-10-08"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 7656,
+          "fmt": "7.66k",
+          "longFmt": "7,656"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "HART MATTHEW J",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1591747200,
+          "fmt": "2020-06-10"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 8813,
+          "fmt": "8.81k",
+          "longFmt": "8,813"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "BENJAMIN JEFFREY D",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1591747200,
+          "fmt": "2020-06-10"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 8813,
+          "fmt": "8.81k",
+          "longFmt": "8,813"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "O LEARY DENISE M",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1591747200,
+          "fmt": "2020-06-10"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 8813,
+          "fmt": "8.81k",
+          "longFmt": "8,813"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "CAHILL JOHN T",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1591747200,
+          "fmt": "2020-06-10"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 8813,
+          "fmt": "8.81k",
+          "longFmt": "8,813"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ALBAUGH JAMES F",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1591747200,
+          "fmt": "2020-06-10"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 8813,
+          "fmt": "8.81k",
+          "longFmt": "8,813"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KRONICK SUSAN D",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1591747200,
+          "fmt": "2020-06-10"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 8813,
+          "fmt": "8.81k",
+          "longFmt": "8,813"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EMBLER MICHAEL J",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1591747200,
+          "fmt": "2020-06-10"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 8813,
+          "fmt": "8.81k",
+          "longFmt": "8,813"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ROBINSON RAY M",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1591747200,
+          "fmt": "2020-06-10"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 8813,
+          "fmt": "8.81k",
+          "longFmt": "8,813"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "NESBITT MARTIN H",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1591747200,
+          "fmt": "2020-06-10"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 8813,
+          "fmt": "8.81k",
+          "longFmt": "8,813"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "CAHILL JOHN T",
+        "transactionText": "Purchase at price 18.96 per share.",
+        "moneyText": "",
+        "ownership": "I",
+        "startDate": {
+          "raw": 1582848000,
+          "fmt": "2020-02-28"
+        },
+        "value": {
+          "raw": 474125,
+          "fmt": "474.12k",
+          "longFmt": "474,125"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 25000,
+          "fmt": "25k",
+          "longFmt": "25,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EMBLER MICHAEL J",
+        "transactionText": "Purchase at price 19.33 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1582848000,
+          "fmt": "2020-02-28"
+        },
+        "value": {
+          "raw": 77312,
+          "fmt": "77.31k",
+          "longFmt": "77,312"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4000,
+          "fmt": "4k",
+          "longFmt": "4,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "CAHILL JOHN T",
+        "transactionText": "Purchase at price 25.14 per share.",
+        "moneyText": "",
+        "ownership": "I",
+        "startDate": {
+          "raw": 1582502400,
+          "fmt": "2020-02-24"
+        },
+        "value": {
+          "raw": 628378,
+          "fmt": "628.38k",
+          "longFmt": "628,378"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 25000,
+          "fmt": "25k",
+          "longFmt": "25,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "JOHNSON STEPHEN L",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1581984000,
+          "fmt": "2020-02-18"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 101222,
+          "fmt": "101.22k",
+          "longFmt": "101,222"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "PARKER WILLIAM DOUGLAS",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1581984000,
+          "fmt": "2020-02-18"
+        },
+        "filerRelation": "Chief Executive Officer",
+        "shares": {
+          "raw": 367586,
+          "fmt": "367.59k",
+          "longFmt": "367,586"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EBERWEIN ELISE R",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1581984000,
+          "fmt": "2020-02-18"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 101222,
+          "fmt": "101.22k",
+          "longFmt": "101,222"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KERR DEREK J",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1581984000,
+          "fmt": "2020-02-18"
+        },
+        "filerRelation": "Chief Financial Officer",
+        "shares": {
+          "raw": 101222,
+          "fmt": "101.22k",
+          "longFmt": "101,222"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1581984000,
+          "fmt": "2020-02-18"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 190848,
+          "fmt": "190.85k",
+          "longFmt": "190,848"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "LEIBMAN MAYA",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1581984000,
+          "fmt": "2020-02-18"
+        },
+        "filerRelation": "Chief Technology Officer",
+        "shares": {
+          "raw": 101222,
+          "fmt": "101.22k",
+          "longFmt": "101,222"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ALBAUGH JAMES F",
+        "transactionText": "Purchase at price 31.41 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1572220800,
+          "fmt": "2019-10-28"
+        },
+        "value": {
+          "raw": 314070,
+          "fmt": "314.07k",
+          "longFmt": "314,070"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 10000,
+          "fmt": "10k",
+          "longFmt": "10,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "Purchase at price 26.34 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1567036800,
+          "fmt": "2019-08-29"
+        },
+        "value": {
+          "raw": 65844,
+          "fmt": "65.84k",
+          "longFmt": "65,844"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 2500,
+          "fmt": "2.5k",
+          "longFmt": "2,500"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EMBLER MICHAEL J",
+        "transactionText": "Purchase at price 28.18 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1564963200,
+          "fmt": "2019-08-05"
+        },
+        "value": {
+          "raw": 112720,
+          "fmt": "112.72k",
+          "longFmt": "112,720"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4000,
+          "fmt": "4k",
+          "longFmt": "4,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ROBINSON RAY M",
+        "transactionText": "Sale at price 29.11 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1564704000,
+          "fmt": "2019-08-02"
+        },
+        "value": {
+          "raw": 201743,
+          "fmt": "201.74k",
+          "longFmt": "201,743"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 6930,
+          "fmt": "6.93k",
+          "longFmt": "6,930"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "HART MATTHEW J",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1560297600,
+          "fmt": "2019-06-12"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4823,
+          "fmt": "4.82k",
+          "longFmt": "4,823"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "BENJAMIN JEFFREY D",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1560297600,
+          "fmt": "2019-06-12"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4823,
+          "fmt": "4.82k",
+          "longFmt": "4,823"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "O LEARY DENISE M",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1560297600,
+          "fmt": "2019-06-12"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4823,
+          "fmt": "4.82k",
+          "longFmt": "4,823"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "CAHILL JOHN T",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1560297600,
+          "fmt": "2019-06-12"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4823,
+          "fmt": "4.82k",
+          "longFmt": "4,823"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ALBAUGH JAMES F",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1560297600,
+          "fmt": "2019-06-12"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4823,
+          "fmt": "4.82k",
+          "longFmt": "4,823"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KRONICK SUSAN D",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1560297600,
+          "fmt": "2019-06-12"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4823,
+          "fmt": "4.82k",
+          "longFmt": "4,823"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EMBLER MICHAEL J",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1560297600,
+          "fmt": "2019-06-12"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4823,
+          "fmt": "4.82k",
+          "longFmt": "4,823"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ROBINSON RAY M",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1560297600,
+          "fmt": "2019-06-12"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4823,
+          "fmt": "4.82k",
+          "longFmt": "4,823"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "NESBITT MARTIN H",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1560297600,
+          "fmt": "2019-06-12"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4823,
+          "fmt": "4.82k",
+          "longFmt": "4,823"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "JOHNSON STEPHEN L",
+        "transactionText": "Purchase at price 27.72 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1559606400,
+          "fmt": "2019-06-04"
+        },
+        "value": {
+          "raw": 138582,
+          "fmt": "138.58k",
+          "longFmt": "138,582"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 5000,
+          "fmt": "5k",
+          "longFmt": "5,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "PARKER WILLIAM DOUGLAS",
+        "transactionText": "Purchase at price 28.09 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1559606400,
+          "fmt": "2019-06-04"
+        },
+        "value": {
+          "raw": 1404285,
+          "fmt": "1.4M",
+          "longFmt": "1,404,285"
+        },
+        "filerRelation": "Chief Executive Officer",
+        "shares": {
+          "raw": 50000,
+          "fmt": "50k",
+          "longFmt": "50,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "CAHILL JOHN T",
+        "transactionText": "Purchase at price 28.60 per share.",
+        "moneyText": "",
+        "ownership": "I",
+        "startDate": {
+          "raw": 1559606400,
+          "fmt": "2019-06-04"
+        },
+        "value": {
+          "raw": 714972,
+          "fmt": "714.97k",
+          "longFmt": "714,972"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 25000,
+          "fmt": "25k",
+          "longFmt": "25,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EBERWEIN ELISE R",
+        "transactionText": "Purchase at price 27.76 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1559606400,
+          "fmt": "2019-06-04"
+        },
+        "value": {
+          "raw": 138820,
+          "fmt": "138.82k",
+          "longFmt": "138,820"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 5000,
+          "fmt": "5k",
+          "longFmt": "5,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KERR DEREK J",
+        "transactionText": "Purchase at price 27.76 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1559606400,
+          "fmt": "2019-06-04"
+        },
+        "value": {
+          "raw": 138820,
+          "fmt": "138.82k",
+          "longFmt": "138,820"
+        },
+        "filerRelation": "Chief Financial Officer",
+        "shares": {
+          "raw": 5000,
+          "fmt": "5k",
+          "longFmt": "5,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "Purchase at price 27.75 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1559606400,
+          "fmt": "2019-06-04"
+        },
+        "value": {
+          "raw": 416250,
+          "fmt": "416.25k",
+          "longFmt": "416,250"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 15000,
+          "fmt": "15k",
+          "longFmt": "15,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "LEIBMAN MAYA",
+        "transactionText": "Purchase at price 27.63 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1559606400,
+          "fmt": "2019-06-04"
+        },
+        "value": {
+          "raw": 138150,
+          "fmt": "138.15k",
+          "longFmt": "138,150"
+        },
+        "filerRelation": "Chief Technology Officer",
+        "shares": {
+          "raw": 5000,
+          "fmt": "5k",
+          "longFmt": "5,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "JOHNSON STEPHEN L",
+        "transactionText": "Conversion of Exercise of derivative security at price 7.62 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1554940800,
+          "fmt": "2019-04-11"
+        },
+        "value": {
+          "raw": 893727,
+          "fmt": "893.73k",
+          "longFmt": "893,727"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 117287,
+          "fmt": "117.29k",
+          "longFmt": "117,287"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "PARKER WILLIAM DOUGLAS",
+        "transactionText": "Conversion of Exercise of derivative security at price 7.62 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1554940800,
+          "fmt": "2019-04-11"
+        },
+        "value": {
+          "raw": 2245980,
+          "fmt": "2.25M",
+          "longFmt": "2,245,980"
+        },
+        "filerRelation": "Chief Executive Officer",
+        "shares": {
+          "raw": 294748,
+          "fmt": "294.75k",
+          "longFmt": "294,748"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "JOHNSON STEPHEN L",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1550534400,
+          "fmt": "2019-02-19"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 79320,
+          "fmt": "79.32k",
+          "longFmt": "79,320"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "PARKER WILLIAM DOUGLAS",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1550534400,
+          "fmt": "2019-02-19"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Chief Executive Officer",
+        "shares": {
+          "raw": 319143,
+          "fmt": "319.14k",
+          "longFmt": "319,143"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EBERWEIN ELISE R",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1550534400,
+          "fmt": "2019-02-19"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 79320,
+          "fmt": "79.32k",
+          "longFmt": "79,320"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KERR DEREK J",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1550534400,
+          "fmt": "2019-02-19"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Chief Financial Officer",
+        "shares": {
+          "raw": 79320,
+          "fmt": "79.32k",
+          "longFmt": "79,320"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1550534400,
+          "fmt": "2019-02-19"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 149548,
+          "fmt": "149.55k",
+          "longFmt": "149,548"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "LEIBMAN MAYA",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1550534400,
+          "fmt": "2019-02-19"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Chief Technology Officer",
+        "shares": {
+          "raw": 79320,
+          "fmt": "79.32k",
+          "longFmt": "79,320"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "PARKER WILLIAM DOUGLAS",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1550102400,
+          "fmt": "2019-02-14"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Chief Executive Officer",
+        "shares": {
+          "raw": 1060,
+          "fmt": "1.06k",
+          "longFmt": "1,060"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ROBINSON RAY M",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1550102400,
+          "fmt": "2019-02-14"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 1529,
+          "fmt": "1.53k",
+          "longFmt": "1,529"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "IBARGUEN ALBERTO",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1550102400,
+          "fmt": "2019-02-14"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 1687,
+          "fmt": "1.69k",
+          "longFmt": "1,687"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "LEIBMAN MAYA",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1550102400,
+          "fmt": "2019-02-14"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Chief Technology Officer",
+        "shares": {
+          "raw": 1943,
+          "fmt": "1.94k",
+          "longFmt": "1,943"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "LEIBMAN MAYA",
+        "transactionText": "",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1550102400,
+          "fmt": "2019-02-14"
+        },
+        "filerRelation": "Chief Technology Officer",
+        "shares": {
+          "raw": 1992,
+          "fmt": "1.99k",
+          "longFmt": "1,992"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "BENJAMIN JEFFREY D",
+        "transactionText": "Purchase at price 35.69 per share.",
+        "moneyText": "",
+        "ownership": "I",
+        "startDate": {
+          "raw": 1542585600,
+          "fmt": "2018-11-19"
+        },
+        "value": {
+          "raw": 535300,
+          "fmt": "535.3k",
+          "longFmt": "535,300"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 15000,
+          "fmt": "15k",
+          "longFmt": "15,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "CAHILL JOHN T",
+        "transactionText": "Purchase at price 33.47 per share.",
+        "moneyText": "",
+        "ownership": "I",
+        "startDate": {
+          "raw": 1540771200,
+          "fmt": "2018-10-29"
+        },
+        "value": {
+          "raw": 836762,
+          "fmt": "836.76k",
+          "longFmt": "836,762"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 25000,
+          "fmt": "25k",
+          "longFmt": "25,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "HART MATTHEW J",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1528848000,
+          "fmt": "2018-06-13"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3494,
+          "fmt": "3.49k",
+          "longFmt": "3,494"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KRAEMER RICHARD C",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1528848000,
+          "fmt": "2018-06-13"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3494,
+          "fmt": "3.49k",
+          "longFmt": "3,494"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "BENJAMIN JEFFREY D",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1528848000,
+          "fmt": "2018-06-13"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3494,
+          "fmt": "3.49k",
+          "longFmt": "3,494"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "O LEARY DENISE M",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1528848000,
+          "fmt": "2018-06-13"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3494,
+          "fmt": "3.49k",
+          "longFmt": "3,494"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "CAHILL JOHN T",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1528848000,
+          "fmt": "2018-06-13"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3494,
+          "fmt": "3.49k",
+          "longFmt": "3,494"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ALBAUGH JAMES F",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1528848000,
+          "fmt": "2018-06-13"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3494,
+          "fmt": "3.49k",
+          "longFmt": "3,494"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KRONICK SUSAN D",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1528848000,
+          "fmt": "2018-06-13"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3494,
+          "fmt": "3.49k",
+          "longFmt": "3,494"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EMBLER MICHAEL J",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1528848000,
+          "fmt": "2018-06-13"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3494,
+          "fmt": "3.49k",
+          "longFmt": "3,494"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ROBINSON RAY M",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1528848000,
+          "fmt": "2018-06-13"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3494,
+          "fmt": "3.49k",
+          "longFmt": "3,494"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "IBARGUEN ALBERTO",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1528848000,
+          "fmt": "2018-06-13"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3494,
+          "fmt": "3.49k",
+          "longFmt": "3,494"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "NESBITT MARTIN H",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1528848000,
+          "fmt": "2018-06-13"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3494,
+          "fmt": "3.49k",
+          "longFmt": "3,494"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "Sale at price 45.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1526947200,
+          "fmt": "2018-05-22"
+        },
+        "value": {
+          "raw": 450000,
+          "fmt": "450k",
+          "longFmt": "450,000"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 10000,
+          "fmt": "10k",
+          "longFmt": "10,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "Sale at price 46.72 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1524528000,
+          "fmt": "2018-04-24"
+        },
+        "value": {
+          "raw": 233600,
+          "fmt": "233.6k",
+          "longFmt": "233,600"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 5000,
+          "fmt": "5k",
+          "longFmt": "5,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "Stock Gift at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1523836800,
+          "fmt": "2018-04-16"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 20000,
+          "fmt": "20k",
+          "longFmt": "20,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "JOHNSON STEPHEN L",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1519084800,
+          "fmt": "2018-02-20"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 52814,
+          "fmt": "52.81k",
+          "longFmt": "52,814"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "PARKER WILLIAM DOUGLAS",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1519084800,
+          "fmt": "2018-02-20"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Chief Executive Officer",
+        "shares": {
+          "raw": 225637,
+          "fmt": "225.64k",
+          "longFmt": "225,637"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EBERWEIN ELISE R",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1519084800,
+          "fmt": "2018-02-20"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 52814,
+          "fmt": "52.81k",
+          "longFmt": "52,814"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KERR DEREK J",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1519084800,
+          "fmt": "2018-02-20"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Chief Financial Officer",
+        "shares": {
+          "raw": 52814,
+          "fmt": "52.81k",
+          "longFmt": "52,814"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1519084800,
+          "fmt": "2018-02-20"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 99574,
+          "fmt": "99.57k",
+          "longFmt": "99,574"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "LEIBMAN MAYA",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1519084800,
+          "fmt": "2018-02-20"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Chief Technology Officer",
+        "shares": {
+          "raw": 52814,
+          "fmt": "52.81k",
+          "longFmt": "52,814"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "HART MATTHEW J",
+        "transactionText": "Sale at price 51.90 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1517788800,
+          "fmt": "2018-02-05"
+        },
+        "value": {
+          "raw": 1825999,
+          "fmt": "1.83M",
+          "longFmt": "1,825,999"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 35182,
+          "fmt": "35.18k",
+          "longFmt": "35,182"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KRAEMER RICHARD C",
+        "transactionText": "Sale at price 52.71 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1517184000,
+          "fmt": "2018-01-29"
+        },
+        "value": {
+          "raw": 158139,
+          "fmt": "158.14k",
+          "longFmt": "158,139"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3000,
+          "fmt": "3k",
+          "longFmt": "3,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KERR DEREK J",
+        "transactionText": "Sale at price 52.77 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1517184000,
+          "fmt": "2018-01-29"
+        },
+        "value": {
+          "raw": 2093051,
+          "fmt": "2.09M",
+          "longFmt": "2,093,051"
+        },
+        "filerRelation": "Chief Financial Officer",
+        "shares": {
+          "raw": 39662,
+          "fmt": "39.66k",
+          "longFmt": "39,662"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "PARKER WILLIAM DOUGLAS",
+        "transactionText": "Sale at price 52.32 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1514851200,
+          "fmt": "2018-01-02"
+        },
+        "value": {
+          "raw": 11750034,
+          "fmt": "11.75M",
+          "longFmt": "11,750,034"
+        },
+        "filerRelation": "Chief Executive Officer",
+        "shares": {
+          "raw": 224572,
+          "fmt": "224.57k",
+          "longFmt": "224,572"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "PARKER WILLIAM DOUGLAS",
+        "transactionText": "Conversion of Exercise of derivative security at price 8.14 - 8.84 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1514851200,
+          "fmt": "2018-01-02"
+        },
+        "value": {
+          "raw": 3697852,
+          "fmt": "3.7M",
+          "longFmt": "3,697,852"
+        },
+        "filerRelation": "Chief Executive Officer",
+        "shares": {
+          "raw": 437356,
+          "fmt": "437.36k",
+          "longFmt": "437,356"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KERR DEREK J",
+        "transactionText": "Stock Gift at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1511827200,
+          "fmt": "2017-11-28"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Chief Financial Officer",
+        "shares": {
+          "raw": 5200,
+          "fmt": "5.2k",
+          "longFmt": "5,200"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KRAEMER RICHARD C",
+        "transactionText": "Stock Gift at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1511740800,
+          "fmt": "2017-11-27"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 12813,
+          "fmt": "12.81k",
+          "longFmt": "12,813"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "IBARGUEN ALBERTO",
+        "transactionText": "Sale at price 47.60 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1510876800,
+          "fmt": "2017-11-17"
+        },
+        "value": {
+          "raw": 201300,
+          "fmt": "201.3k",
+          "longFmt": "201,300"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4229,
+          "fmt": "4.23k",
+          "longFmt": "4,229"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ROBINSON RAY M",
+        "transactionText": "Sale at price 46.75 - 46.76 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1505347200,
+          "fmt": "2017-09-14"
+        },
+        "value": {
+          "raw": 162523,
+          "fmt": "162.52k",
+          "longFmt": "162,523"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3476,
+          "fmt": "3.48k",
+          "longFmt": "3,476"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "LEIBMAN MAYA",
+        "transactionText": "Sale at price 47.97 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1502409600,
+          "fmt": "2017-08-11"
+        },
+        "value": {
+          "raw": 479737,
+          "fmt": "479.74k",
+          "longFmt": "479,737"
+        },
+        "filerRelation": "Chief Technology Officer",
+        "shares": {
+          "raw": 10000,
+          "fmt": "10k",
+          "longFmt": "10,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EBERWEIN ELISE R",
+        "transactionText": "Sale at price 50.35 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1501632000,
+          "fmt": "2017-08-02"
+        },
+        "value": {
+          "raw": 2517570,
+          "fmt": "2.52M",
+          "longFmt": "2,517,570"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 50000,
+          "fmt": "50k",
+          "longFmt": "50,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "BENJAMIN JEFFREY D",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1497398400,
+          "fmt": "2017-06-14"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3037,
+          "fmt": "3.04k",
+          "longFmt": "3,037"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "O LEARY DENISE M",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1497398400,
+          "fmt": "2017-06-14"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3037,
+          "fmt": "3.04k",
+          "longFmt": "3,037"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "SCHIFTER RICHARD P",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1497398400,
+          "fmt": "2017-06-14"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3037,
+          "fmt": "3.04k",
+          "longFmt": "3,037"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "CAHILL JOHN T",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1497398400,
+          "fmt": "2017-06-14"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3037,
+          "fmt": "3.04k",
+          "longFmt": "3,037"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "IBARGUEN ALBERTO",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1497398400,
+          "fmt": "2017-06-14"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3037,
+          "fmt": "3.04k",
+          "longFmt": "3,037"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "NESBITT MARTIN H",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1497398400,
+          "fmt": "2017-06-14"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3037,
+          "fmt": "3.04k",
+          "longFmt": "3,037"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EBERWEIN ELISE R",
+        "transactionText": "Sale at price 49.74 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1496361600,
+          "fmt": "2017-06-02"
+        },
+        "value": {
+          "raw": 1661232,
+          "fmt": "1.66M",
+          "longFmt": "1,661,232"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 33400,
+          "fmt": "33.4k",
+          "longFmt": "33,400"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KERR DEREK J",
+        "transactionText": "Sale at price 50.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1496361600,
+          "fmt": "2017-06-02"
+        },
+        "value": {
+          "raw": 5211171,
+          "fmt": "5.21M",
+          "longFmt": "5,211,171"
+        },
+        "filerRelation": "Chief Financial Officer",
+        "shares": {
+          "raw": 104223,
+          "fmt": "104.22k",
+          "longFmt": "104,223"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KERR DEREK J",
+        "transactionText": "Conversion of Exercise of derivative security at price 7.62 - 8.14 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1496361600,
+          "fmt": "2017-06-02"
+        },
+        "value": {
+          "raw": 1672839,
+          "fmt": "1.67M",
+          "longFmt": "1,672,839"
+        },
+        "filerRelation": "Chief Financial Officer",
+        "shares": {
+          "raw": 213001,
+          "fmt": "213k",
+          "longFmt": "213,001"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "LEIBMAN MAYA",
+        "transactionText": "Sale at price 46.92 - 47.50 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1494460800,
+          "fmt": "2017-05-11"
+        },
+        "value": {
+          "raw": 1126996,
+          "fmt": "1.13M",
+          "longFmt": "1,126,996"
+        },
+        "filerRelation": "Chief Technology Officer",
+        "shares": {
+          "raw": 23857,
+          "fmt": "23.86k",
+          "longFmt": "23,857"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "HART MATTHEW J",
+        "transactionText": "Conversion of Exercise of derivative security at price 32.45 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1494374400,
+          "fmt": "2017-05-10"
+        },
+        "value": {
+          "raw": 133856,
+          "fmt": "133.86k",
+          "longFmt": "133,856"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4125,
+          "fmt": "4.12k",
+          "longFmt": "4,125"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ALBAUGH JAMES F",
+        "transactionText": "Purchase at price 43.85 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1493856000,
+          "fmt": "2017-05-04"
+        },
+        "value": {
+          "raw": 131552,
+          "fmt": "131.55k",
+          "longFmt": "131,552"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 3000,
+          "fmt": "3k",
+          "longFmt": "3,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "JOHNSON STEPHEN L",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1493078400,
+          "fmt": "2017-04-25"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 56898,
+          "fmt": "56.9k",
+          "longFmt": "56,898"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "PARKER WILLIAM DOUGLAS",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1493078400,
+          "fmt": "2017-04-25"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Chief Executive Officer",
+        "shares": {
+          "raw": 243081,
+          "fmt": "243.08k",
+          "longFmt": "243,081"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EBERWEIN ELISE R",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1493078400,
+          "fmt": "2017-04-25"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 56898,
+          "fmt": "56.9k",
+          "longFmt": "56,898"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KERR DEREK J",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1493078400,
+          "fmt": "2017-04-25"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Chief Financial Officer",
+        "shares": {
+          "raw": 56898,
+          "fmt": "56.9k",
+          "longFmt": "56,898"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1493078400,
+          "fmt": "2017-04-25"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 107274,
+          "fmt": "107.27k",
+          "longFmt": "107,274"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "LEIBMAN MAYA",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1493078400,
+          "fmt": "2017-04-25"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Chief Technology Officer",
+        "shares": {
+          "raw": 56898,
+          "fmt": "56.9k",
+          "longFmt": "56,898"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KRAEMER RICHARD C",
+        "transactionText": "Conversion of Exercise of derivative security at price 32.45 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1488326400,
+          "fmt": "2017-03-01"
+        },
+        "value": {
+          "raw": 133856,
+          "fmt": "133.86k",
+          "longFmt": "133,856"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4125,
+          "fmt": "4.12k",
+          "longFmt": "4,125"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "LEIBMAN MAYA",
+        "transactionText": "Sale at price 46.79 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1488326400,
+          "fmt": "2017-03-01"
+        },
+        "value": {
+          "raw": 442399,
+          "fmt": "442.4k",
+          "longFmt": "442,399"
+        },
+        "filerRelation": "Chief Technology Officer",
+        "shares": {
+          "raw": 9455,
+          "fmt": "9.46k",
+          "longFmt": "9,455"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "NOCELLA ANDREW P",
+        "transactionText": "Sale at price 47.50 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1487203200,
+          "fmt": "2017-02-16"
+        },
+        "value": {
+          "raw": 23370,
+          "fmt": "23.37k",
+          "longFmt": "23,370"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 492,
+          "fmt": "492",
+          "longFmt": "492"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "NOCELLA ANDREW P",
+        "transactionText": "Conversion of Exercise of derivative security at price 45.01 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1487203200,
+          "fmt": "2017-02-16"
+        },
+        "value": {
+          "raw": 618888,
+          "fmt": "618.89k",
+          "longFmt": "618,888"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 13750,
+          "fmt": "13.75k",
+          "longFmt": "13,750"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "O LEARY DENISE M",
+        "transactionText": "Conversion of Exercise of derivative security at price 32.45 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1486684800,
+          "fmt": "2017-02-10"
+        },
+        "value": {
+          "raw": 133856,
+          "fmt": "133.86k",
+          "longFmt": "133,856"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 4125,
+          "fmt": "4.12k",
+          "longFmt": "4,125"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ROBINSON RAY M",
+        "transactionText": "Sale at price 45.22 - 45.23 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1486425600,
+          "fmt": "2017-02-07"
+        },
+        "value": {
+          "raw": 361762,
+          "fmt": "361.76k",
+          "longFmt": "361,762"
+        },
+        "filerRelation": "Director",
+        "shares": {
+          "raw": 8000,
+          "fmt": "8k",
+          "longFmt": "8,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "Sale at price 45.00 - 45.31 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1486339200,
+          "fmt": "2017-02-06"
+        },
+        "value": {
+          "raw": 2689120,
+          "fmt": "2.69M",
+          "longFmt": "2,689,120"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 59758,
+          "fmt": "59.76k",
+          "longFmt": "59,758"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "Conversion of Exercise of derivative security at price 7.62 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1486339200,
+          "fmt": "2017-02-06"
+        },
+        "value": {
+          "raw": 893727,
+          "fmt": "893.73k",
+          "longFmt": "893,727"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 117287,
+          "fmt": "117.29k",
+          "longFmt": "117,287"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "PARKER WILLIAM DOUGLAS",
+        "transactionText": "Sale at price 49.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1484092800,
+          "fmt": "2017-01-11"
+        },
+        "value": {
+          "raw": 202321,
+          "fmt": "202.32k",
+          "longFmt": "202,321"
+        },
+        "filerRelation": "Chief Executive Officer",
+        "shares": {
+          "raw": 4129,
+          "fmt": "4.13k",
+          "longFmt": "4,129"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "PARKER WILLIAM DOUGLAS",
+        "transactionText": "Conversion of Exercise of derivative security at price 45.01 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1484092800,
+          "fmt": "2017-01-11"
+        },
+        "value": {
+          "raw": 4050900,
+          "fmt": "4.05M",
+          "longFmt": "4,050,900"
+        },
+        "filerRelation": "Chief Executive Officer",
+        "shares": {
+          "raw": 90000,
+          "fmt": "90k",
+          "longFmt": "90,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "PARKER WILLIAM DOUGLAS",
+        "transactionText": "Sale at price 47.89 - 48.48 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1482883200,
+          "fmt": "2016-12-28"
+        },
+        "value": {
+          "raw": 5471148,
+          "fmt": "5.47M",
+          "longFmt": "5,471,148"
+        },
+        "filerRelation": "Chief Executive Officer",
+        "shares": {
+          "raw": 113706,
+          "fmt": "113.71k",
+          "longFmt": "113,706"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "PARKER WILLIAM DOUGLAS",
+        "transactionText": "Conversion of Exercise of derivative security at price 7.42 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1482883200,
+          "fmt": "2016-12-28"
+        },
+        "value": {
+          "raw": 1714465,
+          "fmt": "1.71M",
+          "longFmt": "1,714,465"
+        },
+        "filerRelation": "Chief Executive Officer",
+        "shares": {
+          "raw": 231060,
+          "fmt": "231.06k",
+          "longFmt": "231,060"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "Sale at price 48.61 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1481846400,
+          "fmt": "2016-12-16"
+        },
+        "value": {
+          "raw": 972182,
+          "fmt": "972.18k",
+          "longFmt": "972,182"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 20000,
+          "fmt": "20k",
+          "longFmt": "20,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "KERR DEREK J",
+        "transactionText": "Stock Gift at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1481673600,
+          "fmt": "2016-12-14"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "Chief Financial Officer",
+        "shares": {
+          "raw": 5140,
+          "fmt": "5.14k",
+          "longFmt": "5,140"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "LEIBMAN MAYA",
+        "transactionText": "Sale at price 47.95 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1481587200,
+          "fmt": "2016-12-13"
+        },
+        "value": {
+          "raw": 475424,
+          "fmt": "475.42k",
+          "longFmt": "475,424"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 9915,
+          "fmt": "9.91k",
+          "longFmt": "9,915"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EBERWEIN ELISE R",
+        "transactionText": "Sale at price 47.62 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1481068800,
+          "fmt": "2016-12-07"
+        },
+        "value": {
+          "raw": 907732,
+          "fmt": "907.73k",
+          "longFmt": "907,732"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 19062,
+          "fmt": "19.06k",
+          "longFmt": "19,062"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EBERWEIN ELISE R",
+        "transactionText": "Conversion of Exercise of derivative security at price 7.62 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1481068800,
+          "fmt": "2016-12-07"
+        },
+        "value": {
+          "raw": 297912,
+          "fmt": "297.91k",
+          "longFmt": "297,912"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 39096,
+          "fmt": "39.1k",
+          "longFmt": "39,096"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "GOULET BEVERLY K",
+        "transactionText": "Sale at price 46.20 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1480550400,
+          "fmt": "2016-12-01"
+        },
+        "value": {
+          "raw": 231000,
+          "fmt": "231k",
+          "longFmt": "231,000"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 5000,
+          "fmt": "5k",
+          "longFmt": "5,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "Sale at price 46.61 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1480464000,
+          "fmt": "2016-11-30"
+        },
+        "value": {
+          "raw": 629957,
+          "fmt": "629.96k",
+          "longFmt": "629,957"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 13515,
+          "fmt": "13.52k",
+          "longFmt": "13,515"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "Conversion of Exercise of derivative security at price 31.14 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1480464000,
+          "fmt": "2016-11-30"
+        },
+        "value": {
+          "raw": 2179800,
+          "fmt": "2.18M",
+          "longFmt": "2,179,800"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 70000,
+          "fmt": "70k",
+          "longFmt": "70,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "GOULET BEVERLY K",
+        "transactionText": "Sale at price 46.18 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1479859200,
+          "fmt": "2016-11-23"
+        },
+        "value": {
+          "raw": 230924,
+          "fmt": "230.92k",
+          "longFmt": "230,924"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 5000,
+          "fmt": "5k",
+          "longFmt": "5,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "LEIBMAN MAYA",
+        "transactionText": "Sale at price 46.35 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1479686400,
+          "fmt": "2016-11-21"
+        },
+        "value": {
+          "raw": 463500,
+          "fmt": "463.5k",
+          "longFmt": "463,500"
+        },
+        "filerRelation": "Chief Technology Officer",
+        "shares": {
+          "raw": 10000,
+          "fmt": "10k",
+          "longFmt": "10,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EBERWEIN ELISE R",
+        "transactionText": "Sale at price 44.21 - 45.25 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1479340800,
+          "fmt": "2016-11-17"
+        },
+        "value": {
+          "raw": 4016927,
+          "fmt": "4.02M",
+          "longFmt": "4,016,927"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 89556,
+          "fmt": "89.56k",
+          "longFmt": "89,556"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "EBERWEIN ELISE R",
+        "transactionText": "Conversion of Exercise of derivative security at price 45.01 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1479340800,
+          "fmt": "2016-11-17"
+        },
+        "value": {
+          "raw": 562625,
+          "fmt": "562.62k",
+          "longFmt": "562,625"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 12500,
+          "fmt": "12.5k",
+          "longFmt": "12,500"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "GOULET BEVERLY K",
+        "transactionText": "Sale at price 40.51 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1477958400,
+          "fmt": "2016-11-01"
+        },
+        "value": {
+          "raw": 202550,
+          "fmt": "202.55k",
+          "longFmt": "202,550"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 5000,
+          "fmt": "5k",
+          "longFmt": "5,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "NOCELLA ANDREW P",
+        "transactionText": "Sale at price 40.65 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1477872000,
+          "fmt": "2016-10-31"
+        },
+        "value": {
+          "raw": 6966428,
+          "fmt": "6.97M",
+          "longFmt": "6,966,428"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 171383,
+          "fmt": "171.38k",
+          "longFmt": "171,383"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "NOCELLA ANDREW P",
+        "transactionText": "Conversion of Exercise of derivative security at price 7.62 - 8.14 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1477872000,
+          "fmt": "2016-10-31"
+        },
+        "value": {
+          "raw": 275331,
+          "fmt": "275.33k",
+          "longFmt": "275,331"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 35432,
+          "fmt": "35.43k",
+          "longFmt": "35,432"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "GOULET BEVERLY K",
+        "transactionText": "Sale at price 40.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1476835200,
+          "fmt": "2016-10-19"
+        },
+        "value": {
+          "raw": 800000,
+          "fmt": "800k",
+          "longFmt": "800,000"
+        },
+        "filerRelation": "Officer",
+        "shares": {
+          "raw": 20000,
+          "fmt": "20k",
+          "longFmt": "20,000"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      },
+      {
+        "filerName": "ISOM ROBERT D JR",
+        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+        "moneyText": "",
+        "ownership": "D",
+        "startDate": {
+          "raw": 1476748800,
+          "fmt": "2016-10-18"
+        },
+        "value": {
+          "raw": 0,
+          "fmt": null,
+          "longFmt": "0"
+        },
+        "filerRelation": "President",
+        "shares": {
+          "raw": 39263,
+          "fmt": "39.26k",
+          "longFmt": "39,263"
+        },
+        "filerUrl": "",
+        "maxAge": 1
+      }
+    ],
+    "maxAge": 1
+  },
+  "insiderHolders": {
+    "holders": [
+      {
+        "maxAge": 1,
+        "name": "ALBAUGH JAMES F",
+        "relation": "Director",
+        "url": "",
+        "transactionDescription": "Stock Award(Grant)",
+        "latestTransDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "positionDirect": {
+          "raw": 51193,
+          "fmt": "51.19k",
+          "longFmt": "51,193"
+        },
+        "positionDirectDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        }
+      },
+      {
+        "maxAge": 1,
+        "name": "BENJAMIN JEFFREY D",
+        "relation": "Director",
+        "url": "",
+        "transactionDescription": "Stock Award(Grant)",
+        "latestTransDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "positionDirect": {
+          "raw": 92071,
+          "fmt": "92.07k",
+          "longFmt": "92,071"
+        },
+        "positionDirectDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        }
+      },
+      {
+        "maxAge": 1,
+        "name": "BROWN ADRIANE M",
+        "relation": "Director",
+        "url": "",
+        "transactionDescription": "Stock Award(Grant)",
+        "latestTransDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "positionDirect": {
+          "raw": 8664,
+          "fmt": "8.66k",
+          "longFmt": "8,664"
+        },
+        "positionDirectDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        }
+      },
+      {
+        "maxAge": 1,
+        "name": "CAHILL JOHN T",
+        "relation": "Director",
+        "url": "",
+        "transactionDescription": "Stock Award(Grant)",
+        "latestTransDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "positionDirect": {
+          "raw": 167071,
+          "fmt": "167.07k",
+          "longFmt": "167,071"
+        },
+        "positionDirectDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        }
+      },
+      {
+        "maxAge": 1,
+        "name": "EMBLER MICHAEL J",
+        "relation": "Director",
+        "url": "",
+        "transactionDescription": "Stock Award(Grant)",
+        "latestTransDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "positionDirect": {
+          "raw": 50071,
+          "fmt": "50.07k",
+          "longFmt": "50,071"
+        },
+        "positionDirectDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        }
+      },
+      {
+        "maxAge": 1,
+        "name": "HART MATTHEW J",
+        "relation": "Director",
+        "url": "",
+        "transactionDescription": "Stock Award(Grant)",
+        "latestTransDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "positionDirect": {
+          "raw": 56677,
+          "fmt": "56.68k",
+          "longFmt": "56,677"
+        },
+        "positionDirectDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        }
+      },
+      {
+        "maxAge": 1,
+        "name": "KRONICK SUSAN D",
+        "relation": "Director",
+        "url": "",
+        "transactionDescription": "Stock Award(Grant)",
+        "latestTransDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "positionDirect": {
+          "raw": 32836,
+          "fmt": "32.84k",
+          "longFmt": "32,836"
+        },
+        "positionDirectDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        }
+      },
+      {
+        "maxAge": 1,
+        "name": "O LEARY DENISE M",
+        "relation": "Director",
+        "url": "",
+        "transactionDescription": "Stock Award(Grant)",
+        "latestTransDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "positionDirect": {
+          "raw": 108125,
+          "fmt": "108.12k",
+          "longFmt": "108,125"
+        },
+        "positionDirectDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        }
+      },
+      {
+        "maxAge": 1,
+        "name": "ROBINSON RAY M",
+        "relation": "Director",
+        "url": "",
+        "transactionDescription": "Stock Award(Grant)",
+        "latestTransDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "positionDirect": {
+          "raw": 44856,
+          "fmt": "44.86k",
+          "longFmt": "44,856"
+        },
+        "positionDirectDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        }
+      },
+      {
+        "maxAge": 1,
+        "name": "STEENLAND DOUGLAS M",
+        "relation": "Director",
+        "url": "",
+        "transactionDescription": "Stock Award(Grant)",
+        "latestTransDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        },
+        "positionDirect": {
+          "raw": 13939,
+          "fmt": "13.94k",
+          "longFmt": "13,939"
+        },
+        "positionDirectDate": {
+          "raw": 1623196800,
+          "fmt": "2021-06-09"
+        }
+      }
+    ],
+    "maxAge": 1
+  },
+  "netSharePurchaseActivity": {
+    "period": "6m",
+    "netPercentInsiderShares": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "netInfoCount": {
+      "raw": 0,
+      "fmt": null,
+      "longFmt": "0"
+    },
+    "totalInsiderShares": {
+      "raw": 6311210,
+      "fmt": "6.31M",
+      "longFmt": "6,311,210"
+    },
+    "buyInfoShares": {
+      "raw": 0,
+      "fmt": null,
+      "longFmt": "0"
+    },
+    "sellInfoCount": {
+      "raw": 0,
+      "fmt": null,
+      "longFmt": "0"
+    },
+    "maxAge": 1,
+    "buyInfoCount": {
+      "raw": 0,
+      "fmt": null,
+      "longFmt": "0"
+    },
+    "netInfoShares": {
+      "raw": 0,
+      "fmt": null,
+      "longFmt": "0"
+    }
+  },
+  "majorHoldersBreakdown": {
+    "maxAge": 1,
+    "insidersPercentHeld": {
+      "raw": 0.00984,
+      "fmt": "0.98%"
+    },
+    "institutionsPercentHeld": {
+      "raw": 0.52187,
+      "fmt": "52.19%"
+    },
+    "institutionsFloatPercentHeld": {
+      "raw": 0.52705,
+      "fmt": "52.71%"
+    },
+    "institutionsCount": {
+      "raw": 760,
+      "fmt": "760",
+      "longFmt": "760"
+    }
+  },
+  "financialData": {
+    "ebitdaMargins": {
+      "raw": -0.83889,
+      "fmt": "-83.89%"
+    },
+    "profitMargins": {
+      "raw": -0.61528,
+      "fmt": "-61.53%"
+    },
+    "grossMargins": {
+      "raw": -0.65012,
+      "fmt": "-65.01%"
+    },
+    "operatingCashflow": {
+      "raw": -6200999936,
+      "fmt": "-6.2B",
+      "longFmt": "-6,200,999,936"
+    },
+    "revenueGrowth": {
+      "raw": -0.529,
+      "fmt": "-52.90%"
+    },
+    "operatingMargins": {
+      "raw": -1.0127,
+      "fmt": "-101.27%"
+    },
+    "ebitda": {
+      "raw": -10762999808,
+      "fmt": "-10.76B",
+      "longFmt": "-10,762,999,808"
+    },
+    "targetLowPrice": {
+      "raw": 5,
+      "fmt": "5.00"
+    },
+    "recommendationKey": "hold",
+    "grossProfits": {
+      "raw": -5536000000,
+      "fmt": "-5.54B",
+      "longFmt": "-5,536,000,000"
+    },
+    "freeCashflow": {
+      "raw": -8850750464,
+      "fmt": "-8.85B",
+      "longFmt": "-8,850,750,464"
+    },
+    "targetMedianPrice": {
+      "raw": 20,
+      "fmt": "20.00"
+    },
+    "currentPrice": {
+      "raw": 20.35,
+      "fmt": "20.35"
+    },
+    "earningsGrowth": {},
+    "currentRatio": {
+      "raw": 1.044,
+      "fmt": "1.04"
+    },
+    "returnOnAssets": {
+      "raw": -0.12765001,
+      "fmt": "-12.77%"
+    },
+    "numberOfAnalystOpinions": {
+      "raw": 17,
+      "fmt": "17",
+      "longFmt": "17"
+    },
+    "targetMeanPrice": {
+      "raw": 18.85,
+      "fmt": "18.85"
+    },
+    "debtToEquity": {},
+    "returnOnEquity": {},
+    "targetHighPrice": {
+      "raw": 29,
+      "fmt": "29.00"
+    },
+    "totalCash": {
+      "raw": 14039000064,
+      "fmt": "14.04B",
+      "longFmt": "14,039,000,064"
+    },
+    "totalDebt": {
+      "raw": 48023998464,
+      "fmt": "48.02B",
+      "longFmt": "48,023,998,464"
+    },
+    "totalRevenue": {
+      "raw": 12830000128,
+      "fmt": "12.83B",
+      "longFmt": "12,830,000,128"
+    },
+    "totalCashPerShare": {
+      "raw": 21.889,
+      "fmt": "21.89"
+    },
+    "financialCurrency": "USD",
+    "maxAge": 86400,
+    "revenuePerShare": {
+      "raw": 23.932,
+      "fmt": "23.93"
+    },
+    "quickRatio": {
+      "raw": 0.866,
+      "fmt": "0.87"
+    },
+    "recommendationMean": {
+      "raw": 3.4,
+      "fmt": "3.40"
+    }
+  },
+  "quoteType": {
+    "exchange": "NMS",
+    "shortName": "American Airlines Group, Inc.",
+    "longName": "American Airlines Group Inc.",
+    "exchangeTimezoneName": "America/New_York",
+    "exchangeTimezoneShortName": "EDT",
+    "isEsgPopulated": false,
+    "gmtOffSetMilliseconds": "-14400000",
+    "quoteType": "EQUITY",
+    "symbol": "AAL",
+    "messageBoardId": "finmb_168569",
+    "market": "us_market"
+  },
+  "institutionOwnership": {
+    "maxAge": 1,
+    "ownershipList": [
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "Vanguard Group, Inc. (The)",
+        "pctHeld": {
+          "raw": 0.1029,
+          "fmt": "10.29%"
+        },
+        "position": {
+          "raw": 65972326,
+          "fmt": "65.97M",
+          "longFmt": "65,972,326"
+        },
+        "value": {
+          "raw": 1576738591,
+          "fmt": "1.58B",
+          "longFmt": "1,576,738,591"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "Primecap Management Company",
+        "pctHeld": {
+          "raw": 0.0688,
+          "fmt": "6.88%"
+        },
+        "position": {
+          "raw": 44141626,
+          "fmt": "44.14M",
+          "longFmt": "44,141,626"
+        },
+        "value": {
+          "raw": 1054984861,
+          "fmt": "1.05B",
+          "longFmt": "1,054,984,861"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "Blackrock Inc.",
+        "pctHeld": {
+          "raw": 0.0544,
+          "fmt": "5.44%"
+        },
+        "position": {
+          "raw": 34906729,
+          "fmt": "34.91M",
+          "longFmt": "34,906,729"
+        },
+        "value": {
+          "raw": 834270823,
+          "fmt": "834.27M",
+          "longFmt": "834,270,823"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "State Street Corporation",
+        "pctHeld": {
+          "raw": 0.0313,
+          "fmt": "3.13%"
+        },
+        "position": {
+          "raw": 20073471,
+          "fmt": "20.07M",
+          "longFmt": "20,073,471"
+        },
+        "value": {
+          "raw": 479755956,
+          "fmt": "479.76M",
+          "longFmt": "479,755,956"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "U.S. Global Investors, Inc.",
+        "pctHeld": {
+          "raw": 0.0293,
+          "fmt": "2.93%"
+        },
+        "position": {
+          "raw": 18776072,
+          "fmt": "18.78M",
+          "longFmt": "18,776,072"
+        },
+        "value": {
+          "raw": 448748120,
+          "fmt": "448.75M",
+          "longFmt": "448,748,120"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "Geode Capital Management, LLC",
+        "pctHeld": {
+          "raw": 0.0182,
+          "fmt": "1.82%"
+        },
+        "position": {
+          "raw": 11648400,
+          "fmt": "11.65M",
+          "longFmt": "11,648,400"
+        },
+        "value": {
+          "raw": 278396760,
+          "fmt": "278.4M",
+          "longFmt": "278,396,760"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "Susquehanna International Group, LLP",
+        "pctHeld": {
+          "raw": 0.0168,
+          "fmt": "1.68%"
+        },
+        "position": {
+          "raw": 10781182,
+          "fmt": "10.78M",
+          "longFmt": "10,781,182"
+        },
+        "value": {
+          "raw": 257670249,
+          "fmt": "257.67M",
+          "longFmt": "257,670,249"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "Nuveen Asset Management",
+        "pctHeld": {
+          "raw": 0.0086,
+          "fmt": "0.86%"
+        },
+        "position": {
+          "raw": 5528863,
+          "fmt": "5.53M",
+          "longFmt": "5,528,863"
+        },
+        "value": {
+          "raw": 132139825,
+          "fmt": "132.14M",
+          "longFmt": "132,139,825"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "Northern Trust Corporation",
+        "pctHeld": {
+          "raw": 0.0084,
+          "fmt": "0.84%"
+        },
+        "position": {
+          "raw": 5378296,
+          "fmt": "5.38M",
+          "longFmt": "5,378,296"
+        },
+        "value": {
+          "raw": 128541274,
+          "fmt": "128.54M",
+          "longFmt": "128,541,274"
+        }
+      },
+      {
+        "maxAge": 1,
+        "reportDate": {
+          "raw": 1617148800,
+          "fmt": "2021-03-31"
+        },
+        "organization": "Two Sigma Investments, LP",
+        "pctHeld": {
+          "raw": 0.0070999996,
+          "fmt": "0.71%"
+        },
+        "position": {
+          "raw": 4547675,
+          "fmt": "4.55M",
+          "longFmt": "4,547,675"
+        },
+        "value": {
+          "raw": 108689432,
+          "fmt": "108.69M",
+          "longFmt": "108,689,432"
+        }
+      }
+    ]
+  },
+  "calendarEvents": {
+    "maxAge": 1,
+    "earnings": {
+      "earningsDate": [
+        {
+          "raw": 1626825600,
+          "fmt": "2021-07-21"
+        },
+        {
+          "raw": 1627257600,
+          "fmt": "2021-07-26"
+        }
+      ],
+      "earningsAverage": {
+        "raw": -2.41,
+        "fmt": "-2.41"
+      },
+      "earningsLow": {
+        "raw": -3.15,
+        "fmt": "-3.15"
+      },
+      "earningsHigh": {
+        "raw": -1.79,
+        "fmt": "-1.79"
+      },
+      "revenueAverage": {
+        "raw": 7140590000,
+        "fmt": "7.14B",
+        "longFmt": "7,140,590,000"
+      },
+      "revenueLow": {
+        "raw": 6631000000,
+        "fmt": "6.63B",
+        "longFmt": "6,631,000,000"
+      },
+      "revenueHigh": {
+        "raw": 7354800000,
+        "fmt": "7.35B",
+        "longFmt": "7,354,800,000"
+      }
+    },
+    "exDividendDate": {
+      "raw": 1580774400,
+      "fmt": "2020-02-04"
+    },
+    "dividendDate": {
+      "raw": 1582070400,
+      "fmt": "2020-02-19"
+    }
+  },
+  "summaryDetail": {
+    "previousClose": {
+      "raw": 20.31,
+      "fmt": "20.31"
+    },
+    "regularMarketOpen": {
+      "raw": 19.88,
+      "fmt": "19.88"
+    },
+    "twoHundredDayAverage": {
+      "raw": 20.684338,
+      "fmt": "20.68"
+    },
+    "trailingAnnualDividendYield": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "payoutRatio": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "volume24Hr": {},
+    "regularMarketDayHigh": {
+      "raw": 20.64,
+      "fmt": "20.64"
+    },
+    "navPrice": {},
+    "averageDailyVolume10Day": {
+      "raw": 25533716,
+      "fmt": "25.53M",
+      "longFmt": "25,533,716"
+    },
+    "totalAssets": {},
+    "regularMarketPreviousClose": {
+      "raw": 20.31,
+      "fmt": "20.31"
+    },
+    "fiftyDayAverage": {
+      "raw": 22.891516,
+      "fmt": "22.89"
+    },
+    "trailingAnnualDividendRate": {
+      "raw": 0,
+      "fmt": "0.00"
+    },
+    "open": {
+      "raw": 19.88,
+      "fmt": "19.88"
+    },
+    "toCurrency": null,
+    "averageVolume10days": {
+      "raw": 25533716,
+      "fmt": "25.53M",
+      "longFmt": "25,533,716"
+    },
+    "expireDate": {},
+    "yield": {},
+    "algorithm": null,
+    "dividendRate": {},
+    "exDividendDate": {
+      "raw": 1580774400,
+      "fmt": "2020-02-04"
+    },
+    "beta": {
+      "raw": 1.850543,
+      "fmt": "1.85"
+    },
+    "circulatingSupply": {},
+    "startDate": {},
+    "regularMarketDayLow": {
+      "raw": 19.655,
+      "fmt": "19.66"
+    },
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "currency": "USD",
+    "regularMarketVolume": {
+      "raw": 28422307,
+      "fmt": "28.42M",
+      "longFmt": "28,422,307"
+    },
+    "lastMarket": null,
+    "maxSupply": {},
+    "openInterest": {},
+    "marketCap": {
+      "raw": 13052143616,
+      "fmt": "13.05B",
+      "longFmt": "13,052,143,616"
+    },
+    "volumeAllCurrencies": {},
+    "strikePrice": {},
+    "averageVolume": {
+      "raw": 32004727,
+      "fmt": "32M",
+      "longFmt": "32,004,727"
+    },
+    "priceToSalesTrailing12Months": {
+      "raw": 1.0173144,
+      "fmt": "1.02"
+    },
+    "dayLow": {
+      "raw": 19.655,
+      "fmt": "19.66"
+    },
+    "ask": {
+      "raw": 0,
+      "fmt": "0.00"
+    },
+    "ytdReturn": {},
+    "askSize": {
+      "raw": 1200,
+      "fmt": "1.2k",
+      "longFmt": "1,200"
+    },
+    "volume": {
+      "raw": 28422307,
+      "fmt": "28.42M",
+      "longFmt": "28,422,307"
+    },
+    "fiftyTwoWeekHigh": {
+      "raw": 26.09,
+      "fmt": "26.09"
+    },
+    "forwardPE": {
+      "raw": -290.7143,
+      "fmt": "-290.71"
+    },
+    "maxAge": 1,
+    "fromCurrency": null,
+    "fiveYearAvgDividendYield": {},
+    "fiftyTwoWeekLow": {
+      "raw": 10.63,
+      "fmt": "10.63"
+    },
+    "bid": {
+      "raw": 0,
+      "fmt": "0.00"
+    },
+    "tradeable": false,
+    "dividendYield": {},
+    "bidSize": {
+      "raw": 1100,
+      "fmt": "1.1k",
+      "longFmt": "1,100"
+    },
+    "dayHigh": {
+      "raw": 20.64,
+      "fmt": "20.64"
+    }
+  },
+  "symbol": "AAL",
+  "esgScores": {
+    "palmOil": false,
+    "peerSocialPerformance": {
+      "min": 4.94,
+      "avg": 10.629999999999997,
+      "max": 17.57
+    },
+    "controversialWeapons": false,
+    "ratingMonth": 5,
+    "gambling": false,
+    "socialScore": {
+      "raw": 12.65,
+      "fmt": "12.6"
+    },
+    "nuclear": false,
+    "furLeather": false,
+    "alcoholic": false,
+    "gmo": false,
+    "catholic": false,
+    "socialPercentile": null,
+    "peerGovernancePerformance": {
+      "min": 2.72,
+      "avg": 5.4538636363636375,
+      "max": 7.53
+    },
+    "peerCount": 47,
+    "relatedControversy": [
+      "Employee Incidents",
+      "Customer Incidents"
+    ],
+    "governanceScore": {
+      "raw": 5.58,
+      "fmt": "5.6"
+    },
+    "environmentPercentile": null,
+    "animalTesting": false,
+    "peerEsgScorePerformance": {
+      "min": 13.74,
+      "avg": 24.65021276595744,
+      "max": 39.23
+    },
+    "tobacco": false,
+    "totalEsg": {
+      "raw": 28.03,
+      "fmt": "28.0"
+    },
+    "highestControversy": 2,
+    "esgPerformance": "AVG_PERF",
+    "coal": false,
+    "peerHighestControversyPerformance": {
+      "min": 0,
+      "avg": 1.7872340425531914,
+      "max": 3
+    },
+    "pesticides": false,
+    "adult": false,
+    "ratingYear": 2021,
+    "maxAge": 86400,
+    "percentile": {
+      "raw": 50.57,
+      "fmt": "51"
+    },
+    "peerGroup": "Transportation",
+    "smallArms": false,
+    "peerEnvironmentPerformance": {
+      "min": 3.37,
+      "avg": 8.144318181818184,
+      "max": 12.92
+    },
+    "environmentScore": {
+      "raw": 9.8,
+      "fmt": "9.8"
+    },
+    "governancePercentile": null,
+    "militaryContract": false
+  },
+  "upgradeDowngradeHistory": {
+    "history": [
+      {
+        "epochGradeDate": 1625746846,
+        "firm": "Morgan Stanley",
+        "toGrade": "Underweight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1623679510,
+        "firm": "Citigroup",
+        "toGrade": "Sell",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1623321435,
+        "firm": "MKM Partners",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1619175193,
+        "firm": "Raymond James",
+        "toGrade": "Market Perform",
+        "fromGrade": "Underperform",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1617715700,
+        "firm": "Morgan Stanley",
+        "toGrade": "Underweight",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1617100315,
+        "firm": "Jefferies",
+        "toGrade": "Hold",
+        "fromGrade": "Underperform",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1613995869,
+        "firm": "Deutsche Bank",
+        "toGrade": "Buy",
+        "fromGrade": "Hold",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1612189213,
+        "firm": "Seaport Global",
+        "toGrade": "Neutral",
+        "fromGrade": "Buy",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1610644658,
+        "firm": "Susquehanna",
+        "toGrade": "Negative",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1607691651,
+        "firm": "Deutsche bank",
+        "toGrade": "Hold",
+        "fromGrade": "Buy",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1606739334,
+        "firm": "Raymond James",
+        "toGrade": "Underperform",
+        "fromGrade": "Market Perform",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1605265405,
+        "firm": "Exane BNP Paribas",
+        "toGrade": "Neutral",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1602585773,
+        "firm": "Susquehanna",
+        "toGrade": "Negative",
+        "fromGrade": "Neutral",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1599038081,
+        "firm": "Berenberg",
+        "toGrade": "Sell",
+        "fromGrade": "Hold",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1595846047,
+        "firm": "Raymond James",
+        "toGrade": "Market Perform",
+        "fromGrade": "Underperform",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1595602225,
+        "firm": "Stifel",
+        "toGrade": "Hold",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1592400390,
+        "firm": "Seaport Global",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1592220859,
+        "firm": "Citigroup",
+        "toGrade": "Sell",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1591354797,
+        "firm": "Raymond James",
+        "toGrade": "Underperform",
+        "fromGrade": "Market Perform",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1588350096,
+        "firm": "UBS",
+        "toGrade": "Sell",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1588348790,
+        "firm": "Evercore ISI Group",
+        "toGrade": "Underperform",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1588336231,
+        "firm": "Stifel",
+        "toGrade": "Hold",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1587989298,
+        "firm": "Citigroup",
+        "toGrade": "Sell",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1587469579,
+        "firm": "Deutsche Bank",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1587467250,
+        "firm": "Susquehanna",
+        "toGrade": "Neutral",
+        "fromGrade": "Positive",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1586173491,
+        "firm": "JP Morgan",
+        "toGrade": "Underweight",
+        "fromGrade": "Overweight",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1585753672,
+        "firm": "Stifel",
+        "toGrade": "Hold",
+        "fromGrade": "Buy",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1585569930,
+        "firm": "Citigroup",
+        "toGrade": "Sell",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1585304002,
+        "firm": "Berenberg",
+        "toGrade": "Hold",
+        "fromGrade": "Buy",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1585236336,
+        "firm": "Bank of America",
+        "toGrade": "Underperform",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1584968716,
+        "firm": "B of A Securities",
+        "toGrade": "Underperform",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1584966069,
+        "firm": "Raymond James",
+        "toGrade": "Market Perform",
+        "fromGrade": "Outperform",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1582912458,
+        "firm": "CFRA",
+        "toGrade": "Hold",
+        "fromGrade": "Buy",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1582828861,
+        "firm": "Buckingham Research",
+        "toGrade": "Neutral",
+        "fromGrade": "Buy",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1573645504,
+        "firm": "UBS",
+        "toGrade": "Sell",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1571662157,
+        "firm": "Buckingham",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1570709162,
+        "firm": "Morgan Stanley",
+        "toGrade": "Underweight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1568117562,
+        "firm": "Morgan Stanley",
+        "toGrade": "Underweight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1567764703,
+        "firm": "Berenberg",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1562846934,
+        "firm": "Buckingham Research",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1562612590,
+        "firm": "Credit Suisse",
+        "toGrade": "Underperform",
+        "fromGrade": "Neutral",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1558352729,
+        "firm": "Barclays",
+        "toGrade": "Overweight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1558350567,
+        "firm": "Morgan Stanley",
+        "toGrade": "Underweight",
+        "fromGrade": "Equal-Weight",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1558349315,
+        "firm": "Morgan Stanley",
+        "toGrade": "Underweight",
+        "fromGrade": "Equal-Weight",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1556540594,
+        "firm": "Deutsche Bank",
+        "toGrade": "Buy",
+        "fromGrade": "Hold",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1552054492,
+        "firm": "Citigroup",
+        "toGrade": "Buy",
+        "fromGrade": "Buy",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1551444279,
+        "firm": "Deutsche Bank",
+        "toGrade": "Hold",
+        "fromGrade": "Buy",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1549630916,
+        "firm": "Argus",
+        "toGrade": "Hold",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1547044899,
+        "firm": "Imperial Capital",
+        "toGrade": "Outperform",
+        "fromGrade": "Outperform",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1543497884,
+        "firm": "Citigroup",
+        "toGrade": "Buy",
+        "fromGrade": "Buy",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1542633772,
+        "firm": "Credit Suisse",
+        "toGrade": "Neutral",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1542199959,
+        "firm": "Morgan Stanley",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "Equal-Weight",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1542031616,
+        "firm": "Goldman Sachs",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1539772878,
+        "firm": "Deutsche Bank",
+        "toGrade": "Buy",
+        "fromGrade": "Hold",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1539691735,
+        "firm": "Raymond James",
+        "toGrade": "Outperform",
+        "fromGrade": "Outperform",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1539685081,
+        "firm": "Imperial Capital",
+        "toGrade": "Outperform",
+        "fromGrade": "Outperform",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1539262877,
+        "firm": "Morgan Stanley",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "Equal-Weight",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1539180991,
+        "firm": "Bank of America",
+        "toGrade": "Buy",
+        "fromGrade": "Buy",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1539173105,
+        "firm": "Buckingham",
+        "toGrade": "Buy",
+        "fromGrade": "Buy",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1539170503,
+        "firm": "Citigroup",
+        "toGrade": "Buy",
+        "fromGrade": "Buy",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1539167366,
+        "firm": "Imperial Capital",
+        "toGrade": "Outperform",
+        "fromGrade": "Outperform",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1538040859,
+        "firm": "Imperial Capital",
+        "toGrade": "Outperform",
+        "fromGrade": "Outperform",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1532953281,
+        "firm": "Macquarie",
+        "toGrade": "Outperform",
+        "fromGrade": "Neutral",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1531830092,
+        "firm": "Buckingham",
+        "toGrade": "Buy",
+        "fromGrade": "Buy",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1531759499,
+        "firm": "Barclays",
+        "toGrade": "Overweight",
+        "fromGrade": "Overweight",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1531740139,
+        "firm": "Morgan Stanley",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "Equal-Weight",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1531399482,
+        "firm": "Morgan Stanley",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "Equal-Weight",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1530612221,
+        "firm": "Deutsche Bank",
+        "toGrade": "Hold",
+        "fromGrade": "Buy",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1528892675,
+        "firm": "Buckingham",
+        "toGrade": "Buy",
+        "fromGrade": "Buy",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1527847497,
+        "firm": "Imperial Capital",
+        "toGrade": "Outperform",
+        "fromGrade": "In-Line",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1527598332,
+        "firm": "Citigroup",
+        "toGrade": "Buy",
+        "fromGrade": "Buy",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1523534969,
+        "firm": "Morgan Stanley",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "Equal-Weight",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1519400308,
+        "firm": "Morgan Stanley",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "Equal-Weight",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1517417885,
+        "firm": "Bernstein",
+        "toGrade": "Outperform",
+        "fromGrade": "Market Perform",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1516996022,
+        "firm": "Morgan Stanley",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "Equal-Weight",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1516980862,
+        "firm": "Buckingham",
+        "toGrade": "Buy",
+        "fromGrade": "Buy",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1515503429,
+        "firm": "Bank of America",
+        "toGrade": "Buy",
+        "fromGrade": "Underperform",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1510589235,
+        "firm": "Morgan Stanley",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1509533934,
+        "firm": "JP Morgan",
+        "toGrade": "Overweight",
+        "fromGrade": "Neutral",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1509118518,
+        "firm": "Buckingham",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1507641481,
+        "firm": "Bank of America",
+        "toGrade": "Underperform",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1506961333,
+        "firm": "Morgan Stanley",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1506449381,
+        "firm": "Macquarie",
+        "toGrade": "Neutral",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1506080435,
+        "firm": "Barclays",
+        "toGrade": "Overweight",
+        "fromGrade": "Equal-Weight",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1505912198,
+        "firm": "Raymond James",
+        "toGrade": "Outperform",
+        "fromGrade": "Market Perform",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1505738296,
+        "firm": "Morgan Stanley",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1505470764,
+        "firm": "JP Morgan",
+        "toGrade": "Neutral",
+        "fromGrade": "Overweight",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1505318834,
+        "firm": "Citigroup",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1502980221,
+        "firm": "Morgan Stanley",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1501581560,
+        "firm": "JP Morgan",
+        "toGrade": "Overweight",
+        "fromGrade": "Neutral",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1501495192,
+        "firm": "Cowen & Co.",
+        "toGrade": "Outperform",
+        "fromGrade": "Market Perform",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1500310199,
+        "firm": "Morgan Stanley",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1499965825,
+        "firm": "Citigroup",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1497974656,
+        "firm": "Atlantic Equities",
+        "toGrade": "Underweight",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1493297458,
+        "firm": "JP Morgan",
+        "toGrade": "Neutral",
+        "fromGrade": "Overweight",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1490192020,
+        "firm": "Morgan Stanley",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "Overweight",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1486381124,
+        "firm": "Bernstein",
+        "toGrade": "Market Perform",
+        "fromGrade": "Underperform",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1483539541,
+        "firm": "Cowen & Co.",
+        "toGrade": "Market Perform",
+        "fromGrade": "Outperform",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1481799593,
+        "firm": "Barclays",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1479460391,
+        "firm": "Citigroup",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1477043401,
+        "firm": "Wolfe Research",
+        "toGrade": "Outperform",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1476280672,
+        "firm": "Stifel",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1476182020,
+        "firm": "Bernstein",
+        "toGrade": "Underperform",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1474439312,
+        "firm": "Raymond James",
+        "toGrade": "Market Perform",
+        "fromGrade": "Outperform",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1472191194,
+        "firm": "Imperial Capital",
+        "toGrade": "In-Line",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1469628113,
+        "firm": "JP Morgan",
+        "toGrade": "Overweight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1469449390,
+        "firm": "Deutsche Bank",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1469404800,
+        "firm": "Credit Suisse",
+        "toGrade": "Underperform",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1468318443,
+        "firm": "Deutsche Bank",
+        "toGrade": "Buy",
+        "fromGrade": "Hold",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1467785030,
+        "firm": "Credit Suisse",
+        "toGrade": "Underperform",
+        "fromGrade": "Outperform",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1466069903,
+        "firm": "Bank of America",
+        "toGrade": "Underperform",
+        "fromGrade": "",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1461826848,
+        "firm": "Morgan Stanley",
+        "toGrade": "Overweight",
+        "fromGrade": "Equal-Weight",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1460435210,
+        "firm": "Credit Suisse",
+        "toGrade": "Outperform",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1460094430,
+        "firm": "Deutsche Bank",
+        "toGrade": "Hold",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1459491999,
+        "firm": "Deutsche Bank",
+        "toGrade": "Hold",
+        "fromGrade": "Buy",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1459236417,
+        "firm": "Stephens & Co.",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1458816861,
+        "firm": "Stifel Nicolaus",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1458800063,
+        "firm": "Raymond James",
+        "toGrade": "Outperform",
+        "fromGrade": "Market Perform",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1454569982,
+        "firm": "JP Morgan",
+        "toGrade": "Overweight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1454306743,
+        "firm": "Cowen & Co.",
+        "toGrade": "Outperform",
+        "fromGrade": "Market Perform",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1453880594,
+        "firm": "UBS",
+        "toGrade": "Buy",
+        "fromGrade": "Neutral",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1452145959,
+        "firm": "Credit Suisse",
+        "toGrade": "Outperform",
+        "fromGrade": "Neutral",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1450700235,
+        "firm": "Deutsche Bank",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1444721004,
+        "firm": "Evercore ISI Group",
+        "toGrade": "Hold",
+        "fromGrade": "Buy",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1444648384,
+        "firm": "Deutsche Bank",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1441166618,
+        "firm": "Imperial Capital",
+        "toGrade": "Outperform",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1441086693,
+        "firm": "Deutsche Bank",
+        "toGrade": "Buy",
+        "fromGrade": "Hold",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1437994800,
+        "firm": "Barclays",
+        "toGrade": "Overweight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1434599736,
+        "firm": "Barclays",
+        "toGrade": "Overweight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1433926800,
+        "firm": "JP Morgan",
+        "toGrade": "Overweight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1433822038,
+        "firm": "Imperial Capital",
+        "toGrade": "Outperform",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1433316552,
+        "firm": "Bank of America",
+        "toGrade": "Neutral",
+        "fromGrade": "Buy",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1427869435,
+        "firm": "Deutsche Bank",
+        "toGrade": "Hold",
+        "fromGrade": "Buy",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1424761959,
+        "firm": "Cowen & Co.",
+        "toGrade": "Market Perform",
+        "fromGrade": "Outperform",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1422432366,
+        "firm": "Credit Suisse",
+        "toGrade": "Neutral",
+        "fromGrade": "Outperform",
+        "action": "down"
+      },
+      {
+        "epochGradeDate": 1421398800,
+        "firm": "Barclays",
+        "toGrade": "Overweight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1418169600,
+        "firm": "Barclays",
+        "toGrade": "Overweight",
+        "fromGrade": "Equal-weight",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1417478400,
+        "firm": "Credit Suisse",
+        "toGrade": "Outperform",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1417418307,
+        "firm": "Bank of America",
+        "toGrade": "Buy",
+        "fromGrade": "Neutral",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1414141200,
+        "firm": "Credit Suisse",
+        "toGrade": "Outperform",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1410287091,
+        "firm": "Credit Suisse",
+        "toGrade": "Outperform",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1406583871,
+        "firm": "CRT Capital",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1406247746,
+        "firm": "Deutsche Bank",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1405506600,
+        "firm": "Atlantic Equities",
+        "toGrade": "Overweight",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1405107013,
+        "firm": "Barclays",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1405020456,
+        "firm": "CRT Capital",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1399313361,
+        "firm": "Stifel Nicolaus",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1398907185,
+        "firm": "JP Morgan",
+        "toGrade": "Overweight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1398754371,
+        "firm": "Bank of America",
+        "toGrade": "Neutral",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1398669948,
+        "firm": "Bank of America",
+        "toGrade": "Neutral",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1398467992,
+        "firm": "CRT Capital",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1398408471,
+        "firm": "Imperial Capital",
+        "toGrade": "Outperform",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1398384219,
+        "firm": "Deutsche Bank",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1397773948,
+        "firm": "Barclays",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1396857600,
+        "firm": "Goldman Sachs",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1395645941,
+        "firm": "Morgan Stanley",
+        "toGrade": "Overweight",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1391408803,
+        "firm": "Morgan Stanley",
+        "toGrade": "Overweight",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1390992738,
+        "firm": "Deutsche Bank",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "main"
+      },
+      {
+        "epochGradeDate": 1390982400,
+        "firm": "Bank of America",
+        "toGrade": "Neutral",
+        "fromGrade": "Underperform",
+        "action": "up"
+      },
+      {
+        "epochGradeDate": 1387468800,
+        "firm": "Evercore Partners",
+        "toGrade": "Equal-Weight",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1387382400,
+        "firm": "UBS",
+        "toGrade": "Neutral",
+        "fromGrade": "",
+        "action": "init"
+      },
+      {
+        "epochGradeDate": 1386604800,
+        "firm": "Deutsche Bank",
+        "toGrade": "Buy",
+        "fromGrade": "",
+        "action": "init"
+      }
+    ],
+    "maxAge": 86400
+  },
+  "pageViews": {
+    "shortTermTrend": "DOWN",
+    "midTermTrend": "UP",
+    "longTermTrend": "UP",
+    "maxAge": 1
+  }
+}

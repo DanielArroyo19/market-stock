@@ -1,0 +1,6 @@
+apiVersion: v3
+name: quote-poll
+description: A Helm chart for deploying quote-poll
+type: application
+version: 1.0.0
+appVersion: 1.0.0

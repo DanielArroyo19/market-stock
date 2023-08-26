@@ -1,0 +1,27 @@
+replicaCount: 1
+requestMemory: 0
+containerPort: 8080
+nodePort: 32010
+
+ingress:
+  albIngressController:
+    inboundCidr: "<from skaffold file yml>"
+    environment: "<from skaffold file yml>"
+    acmCertificateArn: "<from skaffold file yml>"
+    policy: "ELBSecurityPolicy-TLS-1-1-2017-01"
+  externalDns: "<from skaffold file yml>"
+
+service:
+  type: NodePort
+  port: 8080
+
+image:
+  repository: "image for the app"
+
+env:
+  DYNAMO_URL: "<from environment yml>"
+
+localDev: true
+localDevEnv:
+  LOCAL_AWS_ACCESS_KEY_ID: "root"
+  LOCAL_AWS_SECRET_ACCESS_KEY: "root"

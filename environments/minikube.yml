@@ -1,0 +1,7 @@
+env:
+  REACT_APP_API_ROOT_URL : http://127.0.0.1:8080
+  DYNAMO_ENDPOINT: http://dynamodb:8000
+  KAFKA_BOOSTRAP_URL: cp-helm-charts-cp-kafka:9092
+  KAFKA_STATE_DIR: /tmp/store
+  STORAGE_CLASS: standard
+  STORAGE_SIZE: 64Mi

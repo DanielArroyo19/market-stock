@@ -1,0 +1,23 @@
+.HomePage {
+    .app-name {
+        font-size: 2rem;
+        margin: 15px auto;
+    }
+    .stocks-grid {
+        display: grid;
+        float: left;
+        width: 75%;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .orders-grid {
+        display: grid;
+        float: right;
+        width: 25%;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+}

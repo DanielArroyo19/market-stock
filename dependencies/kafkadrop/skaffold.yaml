@@ -1,0 +1,14 @@
+apiVersion: skaffold/v2beta6
+kind: Config
+
+deploy:
+  kubeContext: minikube
+
+profiles:
+  - name: minikube
+    deploy:
+      kubeContext: minikube
+      helm:
+        releases:
+          - name: kafka-drop
+            chartPath: obsidiandynamics/kafdrop

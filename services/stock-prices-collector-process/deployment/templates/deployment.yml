@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: stock-prices-collector-process
+spec:
+  selector:
+    matchLabels:
+      app: stock-prices-collector-process
+  replicas: 2
+  serviceName: stock-prices-collector-process
+  template:
+    metadata:
+      labels:
+        app: stock-prices-collector-process
+    spec:
+      containers:
+        - name: stock-prices-collector-process
+          image: stock-prices-collector-process
+          imagePullPolicy: IfNotPresent
+          resources:
+            requests:
+              memory: {{ .Values.requestMemory }}
+          volumeMounts:
+            - name: store-volume
+              mountPath: "{{.Values.env.KAFKA_STATE_DIR}}"
+          env:
+            - name: KAFKA_BOOSTRAP_URL
+              value: '{{ .Values.env.KAFKA_BOOSTRAP_URL }}'
+      volumes:
+        - name: store-volume  # Use the same name as in volumeMounts
+          persistentVolumeClaim:
+            claimName: store

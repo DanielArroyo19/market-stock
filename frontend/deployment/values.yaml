@@ -1,0 +1,11 @@
+replicaCount: 1
+requestMemory: 0
+containerPort: 8080
+nodePort: 32010
+
+service:
+  type: NodePort
+  port: 8080
+
+image:
+  repository: "image for the app"

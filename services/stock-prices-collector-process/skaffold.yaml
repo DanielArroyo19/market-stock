@@ -1,0 +1,51 @@
+apiVersion: skaffold/v2beta6
+kind: Config
+build:
+  artifacts:
+    - image: stock-prices-collector-process
+      context: ../..
+      jib:
+        project: services:stock-prices-collector-process:service
+
+deploy:
+  kubeContext: minikube
+
+profiles:
+  - name: minikube
+    activation:
+      - kubeContext: minikube
+        command: dev
+    deploy:
+      kubeContext: minikube
+      helm:
+        releases:
+          - name: stock-prices-collector-process
+            chartPath: deployment
+            artifactOverrides:
+              image.repository: stock-prices-collector-process
+            valuesFiles:
+              - ../../environments/minikube.yml
+            setValues:
+              replicaCount: 1
+              ingress.albIngressController.inboundCidr: 0.0.0.0/8
+              ingress.albIngressController.environment: "MINIKUBE"
+              ingress.albIngressController.acmCertificateArn: "unused"
+              ingress.externalDns: "stock-prices-collector-process"
+              datadog.applicationPerformanceMonitoring.environment: "minikube"
+  - name: dev
+    activation:
+      - kubeContext: arn:aws:eks:us-east-2:234424433652:cluster/EksClusterK8s
+    deploy:
+     kubeContext: arn:aws:eks:us-east-2:234424433652:cluster/EksClusterK8s
+     helm:
+       releases:
+         - name: stock-prices-collector-process
+           chartPath: deployment
+           namespace: default
+           valuesFiles:
+              - ../../environments/dev.yml
+           setValues:
+             replicaCount: 1
+             requestMemory: 0.2Gi
+           artifactOverrides:
+              image.repository: stock-prices-collector-process
