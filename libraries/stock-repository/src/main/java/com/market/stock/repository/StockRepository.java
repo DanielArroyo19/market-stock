@@ -9,7 +9,6 @@ import com.market.stock.Stock;
 import lombok.extern.slf4j.Slf4j;
 
 import java.time.ZonedDateTime;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -17,6 +16,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static com.market.stock.repository.StockTable.Attributes.ENABLED;
+import static com.market.stock.repository.StockTable.Attributes.PRICE;
 import static com.market.stock.repository.StockTable.PrimaryKey.STOCK;
 import static java.lang.String.format;
 import static java.time.format.DateTimeFormatter.ISO_DATE_TIME;
@@ -42,6 +42,7 @@ public class StockRepository {
                     new HashMap<>() {{
                         put(STOCK, newValue.getStock());
                         put(ENABLED, formatDateTime(newValue.getEnabled()));
+                        put(PRICE, newValue.getLast());
                     }}
             ), conditionExpression(previousValue), null, conditionValueMap(previousValue));
         } catch (ConditionalCheckFailedException e) {
@@ -56,9 +57,9 @@ public class StockRepository {
                     .withValueMap(updateValueMap(stockKey, attributes))
                     .withConditionExpression(STOCK + " = :" + STOCK)
                     .withReturnValues(ReturnValue.NONE);
-
             stockTable().updateItem(updateItemSpec);
         } catch (Exception e) {
+            e.printStackTrace();
             log.info("Unable to update status for the stockKey: {}, please activate the site first, error: {}", stockKey, e.getMessage());
         }
     }
@@ -78,14 +79,14 @@ public class StockRepository {
 
             stockTable().updateItem(updateItemSpec);
         } catch (Exception e) {
-            log.info("Unable to update status for the stockKey: {}, please activate the site first, error: {}", stockKey, e.getMessage());
+            log.info("Unable to update status for the stockKey: {}, error: {}", stockKey, e.getMessage());
         }
     }
 
     public List<Stock> all() {
         dynamoDB.listTables().forEach(System.out::println);
         var scanOutcomes = stockTable().scan(new ScanSpec()
-                .withAttributesToGet(STOCK, ENABLED));
+                .withAttributesToGet(STOCK, ENABLED, PRICE));
 
         return stream(scanOutcomes.spliterator(), false)
                 .map(this::stockStatus)
@@ -95,7 +96,7 @@ public class StockRepository {
     public Stock get(String stockKey) {
         var item = stockTable().getItem(new GetItemSpec()
                 .withPrimaryKey(new PrimaryKey(STOCK, stockKey))
-                .withAttributesToGet(STOCK, ENABLED));
+                .withAttributesToGet(STOCK, ENABLED, PRICE));
         if (nonNull(item)) return stockStatus(item);
         return null;
     }
@@ -107,7 +108,7 @@ public class StockRepository {
     private String updateExpression(Map<String, Object> updateMap) {
         if (nonNull(updateMap))
             return updateMap.keySet().stream()
-                    .map(attribute -> format("{0} = :{0}", attribute))
+                    .map(attribute -> format("%s = :%s", attribute, attribute))
                     .collect(joining(", "));
 
         return null;
@@ -115,8 +116,8 @@ public class StockRepository {
 
     private String conditionExpression(Stock previousValue) {
         if (nonNull(previousValue)) return Stream
-                .of(STOCK, ENABLED)
-                .map(attribute -> format("{0} = :{0}", attribute))
+                .of(STOCK, ENABLED, PRICE)
+                .map(attribute -> format("%s = :%s", attribute, attribute))
                 .collect(joining(" and "));
 
         return "attribute_not_exists(" + STOCK + ")";
@@ -134,6 +135,7 @@ public class StockRepository {
         return Stock.builder()
                 .stock(item.getString(STOCK))
                 .enabled(parseDateTime(item.getString(ENABLED)))
+                .last(item.isPresent(PRICE) ? item.getDouble(PRICE) : 0.0)
                 .build();
     }
 

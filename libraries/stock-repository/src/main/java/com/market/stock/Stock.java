@@ -10,4 +10,5 @@ import java.time.ZonedDateTime;
 public class Stock {
     String stock;
     ZonedDateTime enabled;
+    Double last;
 }

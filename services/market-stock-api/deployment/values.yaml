@@ -19,9 +19,9 @@ image:
   repository: "image for the app"
 
 env:
-  DYNAMO_URL: "<from environment yml>"
+  DYNAMO_ENDPOINT: "<from environment yml>"
 
-localDev: true
+localDev: "<from environment yml>"
 localDevEnv:
-  LOCAL_AWS_ACCESS_KEY_ID: "root"
-  LOCAL_AWS_SECRET_ACCESS_KEY: "root"
+  LOCAL_AWS_ACCESS_KEY_ID: "<from environment yml>"
+  LOCAL_AWS_SECRET_ACCESS_KEY: "<from environment yml>"

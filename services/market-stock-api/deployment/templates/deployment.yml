@@ -19,8 +19,8 @@ spec:
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
           env:
-            - name: DYNAMO_URL
-              value: '{{ .Values.env.DYNAMO_URL }}'
+            - name: DYNAMO_ENDPOINT
+              value: '{{ .Values.env.DYNAMO_ENDPOINT }}'
             {{- if .Values.localDev }}
             - name: AWS_ACCESS_KEY_ID
               value: "{{ .Values.localDevEnv.LOCAL_AWS_ACCESS_KEY_ID }}"

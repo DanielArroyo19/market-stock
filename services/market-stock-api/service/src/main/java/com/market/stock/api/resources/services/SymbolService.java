@@ -7,7 +7,10 @@ import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
+
+import static com.market.stock.repository.StockTable.Attributes.PRICE;
 
 @Component
 public class SymbolService {
@@ -31,10 +34,16 @@ public class SymbolService {
         stockRepository.save(null, stockSave);
     }
 
+    public void putLastPrice(String id, Symbol stock) {
+        System.out.println("Aqui");
+        stockRepository.update(id, Map.of(PRICE, stock.getLast()));
+    }
+
     private List<Symbol> mapStock (List<Stock> listStocks){
         return listStocks.stream().map(stock -> {
             return Symbol.builder()
                     .id(stock.getStock())
+                    .last(stock.getLast())
                     .build();
         }).collect(Collectors.toList());
     }

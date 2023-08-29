@@ -7,5 +7,7 @@ public class StockTable {
 
     public static class Attributes {
         public static final String ENABLED = "Enabled";
+
+        public static final String PRICE = "Price";
     }
 }

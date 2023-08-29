@@ -11,15 +11,12 @@ import org.apache.kafka.streams.StreamsConfig;
 import org.apache.kafka.streams.Topology;
 import org.apache.kafka.streams.kstream.Consumed;
 import org.apache.kafka.streams.kstream.KStream;
-import org.apache.kafka.streams.kstream.KTable;
 import org.apache.kafka.streams.kstream.Produced;
 import org.apache.kafka.streams.state.KeyValueStore;
 import org.apache.kafka.streams.state.StoreBuilder;
 import org.apache.kafka.streams.state.Stores;
 
-import java.util.Arrays;
 import java.util.Properties;
-import java.util.concurrent.CountDownLatch;
 
 import static com.market.stock.proto.QuoteMessage.*;
 
@@ -71,22 +68,18 @@ public class StockPricesCollectorProcess {
         Serde<Quote> valueSerde = new QuoteValueSerde();
 
         KStream<String, Quote> inputTopic = builder.stream("market.quotes.price", Consumed.with(Serdes.String(), valueSerde));
-        /*StoreBuilder<KeyValueStore<String, Quote>> storeBuilder = Stores.keyValueStoreBuilder(
+        StoreBuilder<KeyValueStore<String, Quote>> storeBuilder = Stores.keyValueStoreBuilder(
                 Stores.persistentKeyValueStore(STORE_NAME),
                 Serdes.String(),
-                new QuoteValueSerde()
+                valueSerde
         );
         builder.addStateStore(storeBuilder);
-         */
 
-        /*inputTopic
-                .peek((key, value) -> System.out.println(key + " - " + value))
-                .process(new StockPricesCollectorProcessor(STORE_NAME), STORE_NAME)
-                .filter((key, value) -> value != null)
-                .to("market.stock.price.last");*/
 
         inputTopic
-                .peek((key, value) -> System.out.println(key + " - " + value.getLast()))
+                .process(new StockPricesCollectorProcessor(STORE_NAME), STORE_NAME)
+                .filter((key, value) -> value != null)
+                .peek((key, value) -> System.out.println(key + " - " + value))
                 .to("market.stock.price.last", Produced.with(Serdes.String(), valueSerde));
 
         //Create final topology and print

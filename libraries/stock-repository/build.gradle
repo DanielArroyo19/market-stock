@@ -7,4 +7,11 @@ dependencies {
     implementation 'com.amazonaws:aws-java-sdk-dynamodb:1.11.937'
     implementation 'com.amazonaws:aws-java-sdk-sts:1.11.918'
     implementation 'ch.qos.logback:logback-classic:1.2.3'
+
+    // JUnit 5 for unit testing
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    // Mockito for mocking
+    testImplementation 'org.mockito:mockito-core:4.2.0'
 }

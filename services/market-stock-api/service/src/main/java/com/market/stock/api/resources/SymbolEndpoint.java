@@ -29,5 +29,10 @@ public class SymbolEndpoint {
     public void addStock(@RequestBody Symbol symbol){
         stockService.addSymbol(symbol);
     }
+
+    @PutMapping(value = "/{id}")
+    public void putLastPrice(@PathVariable("id") String id, @RequestBody Symbol stock){
+        stockService.putLastPrice(id, stock);
+    }
 }
 
