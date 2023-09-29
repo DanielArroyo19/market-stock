@@ -15,6 +15,7 @@ import java.util.Properties;
 import java.util.UUID;
 
 import static com.market.stock.proto.QuoteMessage.Quote;
+import static com.market.stock.repository.StockTable.Attributes.PRICE;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
@@ -72,7 +73,7 @@ public class StockPricesCollectorProcessSinkTest {
         verify(stockRepository).update(keyArgumentCaptor.capture(), quoteArgumentCaptor.capture());
 
         assertThat(expected.getSymbol().getSymbol()).isEqualTo(keyArgumentCaptor.getValue());
-        assertThat(Map.of("LAST", expected.getLast())).isEqualTo(quoteArgumentCaptor.getValue());
+        assertThat(Map.of(PRICE, expected.getLast())).isEqualTo(quoteArgumentCaptor.getValue());
 
     }
 
