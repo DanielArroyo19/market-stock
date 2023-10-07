@@ -21,6 +21,8 @@ image:
 env:
   DYNAMO_ENDPOINT: "<from environment yml>"
   KAFKA_BOOSTRAP_URL: "<from environment yml>"
+  KAFKA_SECURITY_PROTOCOL: "<from environment yml>"
+  KAFKA_SECURITY_MECHANISM: "<from environment yml>"
   KAFKA_STATE_DIR: "<from environment yml>"
   STORAGE_CLASS: "<from environment yml>"
   STORAGE_SIZE: "<from environment yml>"

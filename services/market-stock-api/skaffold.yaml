@@ -32,6 +32,27 @@ profiles:
               ingress.albIngressController.acmCertificateArn: "unused"
               ingress.externalDns: "market-stock-api"
               datadog.applicationPerformanceMonitoring.environment: "minikube"
+  - name: ephemeral
+    activation:
+      - kubeContext: minikube
+        command: dev
+    deploy:
+      kubeContext: minikube
+      helm:
+        releases:
+          - name: market-stock-api
+            chartPath: deployment
+            artifactOverrides:
+              image.repository: market-stock-api
+            valuesFiles:
+              - ../../environments/ephemeral.yml
+            setValues:
+              replicaCount: 1
+              ingress.albIngressController.inboundCidr: 0.0.0.0/8
+              ingress.albIngressController.environment: "MINIKUBE"
+              ingress.albIngressController.acmCertificateArn: "unused"
+              ingress.externalDns: "market-stock-api"
+              datadog.applicationPerformanceMonitoring.environment: "minikube"
   - name: dev
     activation:
       - kubeContext: arn:aws:eks:us-east-2:234424433652:cluster/EksClusterK8s

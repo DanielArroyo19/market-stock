@@ -32,14 +32,19 @@ public class StockPricesCollectorProcess {
          **************************************************/
         //Setup Properties for the Kafka Input Stream
         Properties props = new Properties();
-        props.put(StreamsConfig.APPLICATION_ID_CONFIG,
-                "stock-prices-collector-process");
-        props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG,
-                System.getenv("KAFKA_BOOSTRAP_URL"));
-        props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG,
-                Serdes.String().getClass());
-        props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG,
-                QuoteValueSerde.class);
+        props.put(StreamsConfig.APPLICATION_ID_CONFIG, "stock-prices-collector-process");
+        props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, System.getenv("KAFKA_BOOSTRAP_URL"));
+        props.put(StreamsConfig.SECURITY_PROTOCOL_CONFIG, System.getenv("KAFKA_SECURITY_PROTOCOL"));
+        if("SASL_SSL".equals(System.getenv("KAFKA_SECURITY_PROTOCOL"))){
+            props.put("sasl.mechanism", System.getenv("KAFKA_SECURITY_MECHANISM"));
+            props.put("sasl.jaas.config",
+                    String.format(
+                            "org.apache.kafka.common.security.plain.PlainLoginModule required username=\"%s\" password=\"%s\";",
+                    System.getenv("KAFKA_CLUSTER_API_KEY"),
+                    System.getenv("KAFKA_CLUSTER_API_SECRET")));
+        }
+        props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
+        props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, QuoteValueSerde.class);
         props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG,"latest");
 
         //For immediate results during testing
@@ -49,14 +54,9 @@ public class StockPricesCollectorProcess {
 
         StockPricesCollectorProcess stockPricesCollectorProcess = new StockPricesCollectorProcess();
         Topology topology = stockPricesCollectorProcess.buildTopology();
-        System.out.println(topology.describe());
-        log.info("AQui");
 
-        //Setup Stream
         final KafkaStreams streams = new KafkaStreams(topology, props);
 
-
-        //Start the stream
         streams.start();
         Runtime.getRuntime().addShutdownHook(new Thread(streams::close));
     }
@@ -79,10 +79,8 @@ public class StockPricesCollectorProcess {
         inputTopic
                 .process(new StockPricesCollectorProcessor(STORE_NAME), STORE_NAME)
                 .filter((key, value) -> value != null)
-                .peek((key, value) -> System.out.println(key + " - " + value))
                 .to("market.stock.price.last", Produced.with(Serdes.String(), valueSerde));
 
-        //Create final topology and print
         return builder.build();
     }
 }

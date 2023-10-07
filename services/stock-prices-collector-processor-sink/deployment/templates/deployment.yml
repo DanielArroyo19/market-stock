@@ -19,13 +19,31 @@ spec:
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
           env:
-            - name: KAFKA_BOOSTRAP_URL
-              value: '{{ .Values.env.KAFKA_BOOSTRAP_URL }}'
             - name: DYNAMO_ENDPOINT
               value: '{{ .Values.env.DYNAMO_ENDPOINT }}'
-            {{- if .Values.localDev }}
             - name: AWS_ACCESS_KEY_ID
-              value: "{{ .Values.localDevEnv.LOCAL_AWS_ACCESS_KEY_ID }}"
+              valueFrom:
+                secretKeyRef:
+                  name: dynamodb-secret
+                  key: AWS_ACCESS_KEY_ID
             - name: AWS_SECRET_ACCESS_KEY
-              value: "{{ .Values.localDevEnv.LOCAL_AWS_SECRET_ACCESS_KEY }}"
-            {{- end }}
+              valueFrom:
+                secretKeyRef:
+                  name: dynamodb-secret
+                  key: AWS_SECRET_ACCESS_KEY
+            - name: KAFKA_BOOSTRAP_URL
+              value: '{{ .Values.env.KAFKA_BOOSTRAP_URL }}'
+            - name: KAFKA_SECURITY_PROTOCOL
+              value: '{{ .Values.env.KAFKA_SECURITY_PROTOCOL }}'
+            - name: KAFKA_SECURITY_MECHANISM
+              value: '{{ .Values.env.KAFKA_SECURITY_MECHANISM }}'
+            - name: KAFKA_CLUSTER_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: kafka-cluster-secret
+                  key: KAFKA_CLUSTER_API_KEY
+            - name: KAFKA_CLUSTER_API_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: kafka-cluster-secret
+                  key: KAFKA_CLUSTER_API_SECRET

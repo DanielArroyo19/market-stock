@@ -32,20 +32,26 @@ profiles:
               ingress.albIngressController.acmCertificateArn: "unused"
               ingress.externalDns: "stock-prices-collector-process"
               datadog.applicationPerformanceMonitoring.environment: "minikube"
-  - name: dev
+
+  - name: ephemeral
     activation:
-      - kubeContext: arn:aws:eks:us-east-2:234424433652:cluster/EksClusterK8s
+      - kubeContext: minikube
+        command: dev
     deploy:
-     kubeContext: arn:aws:eks:us-east-2:234424433652:cluster/EksClusterK8s
-     helm:
-       releases:
-         - name: stock-prices-collector-process
-           chartPath: deployment
-           namespace: default
-           valuesFiles:
-              - ../../environments/dev.yml
-           setValues:
-             replicaCount: 1
-             requestMemory: 0.2Gi
-           artifactOverrides:
+      kubeContext: minikube
+      helm:
+        releases:
+          - name: stock-prices-collector-process
+            chartPath: deployment
+            artifactOverrides:
               image.repository: stock-prices-collector-process
+            valuesFiles:
+              - ../../environments/ephemeral.yml
+            setValues:
+              replicaCount: 1
+              ingress.albIngressController.inboundCidr: 0.0.0.0/8
+              ingress.albIngressController.environment: "MINIKUBE"
+              ingress.albIngressController.acmCertificateArn: "unused"
+              ingress.externalDns: "stock-prices-collector-process"
+              datadog.applicationPerformanceMonitoring.environment: "minikube"
+

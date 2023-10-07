@@ -35,16 +35,15 @@ public class SymbolService {
     }
 
     public void putLastPrice(String id, Symbol stock) {
-        System.out.println("Aqui");
         stockRepository.update(id, Map.of(PRICE, stock.getLast()));
     }
 
     private List<Symbol> mapStock (List<Stock> listStocks){
-        return listStocks.stream().map(stock -> {
-            return Symbol.builder()
+        return listStocks.stream().map(stock ->
+            Symbol.builder()
                     .id(stock.getStock())
                     .last(stock.getLast())
-                    .build();
-        }).collect(Collectors.toList());
+                    .build()
+        ).collect(Collectors.toList());
     }
 }

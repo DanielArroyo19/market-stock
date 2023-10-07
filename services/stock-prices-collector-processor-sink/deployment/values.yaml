@@ -21,11 +21,13 @@ image:
 env:
   DYNAMO_ENDPOINT: "<from environment yml>"
   KAFKA_BOOSTRAP_URL: "<from environment yml>"
+  KAFKA_SECURITY_PROTOCOL: "<from environment yml>"
+  KAFKA_SECURITY_MECHANISM: "<from environment yml>"
   KAFKA_STATE_DIR: "<from environment yml>"
   STORAGE_CLASS: "<from environment yml>"
   STORAGE_SIZE: "<from environment yml>"
 
-localDev: "<from environment yml>"
+localDev: true
 localDevEnv:
-  LOCAL_AWS_ACCESS_KEY_ID: "<from environment yml>"
-  LOCAL_AWS_SECRET_ACCESS_KEY: "<from environment yml>"
+  LOCAL_AWS_ACCESS_KEY_ID: "<from .env_secrets for minikube>"
+  LOCAL_AWS_SECRET_ACCESS_KEY: "<from .env_secrets for minikube>"

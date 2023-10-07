@@ -26,6 +26,20 @@ spec:
           env:
             - name: KAFKA_BOOSTRAP_URL
               value: '{{ .Values.env.KAFKA_BOOSTRAP_URL }}'
+            - name: KAFKA_SECURITY_PROTOCOL
+              value: '{{ .Values.env.KAFKA_SECURITY_PROTOCOL }}'
+            - name: KAFKA_SECURITY_MECHANISM
+              value: '{{ .Values.env.KAFKA_SECURITY_MECHANISM }}'
+            - name: KAFKA_CLUSTER_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: kafka-cluster-secret
+                  key: KAFKA_CLUSTER_API_KEY
+            - name: KAFKA_CLUSTER_API_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: kafka-cluster-secret
+                  key: KAFKA_CLUSTER_API_SECRET
       volumes:
         - name: store-volume  # Use the same name as in volumeMounts
           persistentVolumeClaim:

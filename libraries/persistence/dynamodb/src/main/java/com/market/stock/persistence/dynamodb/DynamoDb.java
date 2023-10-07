@@ -12,7 +12,7 @@ import com.amazonaws.services.dynamodbv2.model.*;
 import java.util.List;
 
 public class DynamoDb {
-    private static final String REGION = "us-west-2";
+    private static final String REGION = "us-east-2";
 
     private DynamoDb () {
 

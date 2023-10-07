@@ -30,3 +30,26 @@ profiles:
               ingress.albIngressController.acmCertificateArn: "unused"
               ingress.externalDns: "yfinance-poll"
               datadog.applicationPerformanceMonitoring.environment: "minikube"
+
+
+  - name: ephemeral
+    activation:
+      - kubeContext: minikube
+        command: dev
+    deploy:
+      kubeContext: minikube
+      helm:
+        releases:
+          - name: yfinance-poll
+            chartPath: deployment
+            artifactOverrides:
+              image.repository: yfinance-poll
+            valuesFiles:
+              - ../../environments/ephemeral.yml
+            setValues:
+              replicaCount: 1
+              ingress.albIngressController.inboundCidr: 0.0.0.0/8
+              ingress.albIngressController.environment: "MINIKUBE"
+              ingress.albIngressController.acmCertificateArn: "unused"
+              ingress.externalDns: "yfinance-poll"
+              datadog.applicationPerformanceMonitoring.environment: "minikube"

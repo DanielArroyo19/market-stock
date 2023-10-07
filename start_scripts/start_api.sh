@@ -1,6 +1,6 @@
 pushd ./services/market-stock-api
 
-skaffold dev --profile minikube  --namespace default --force-colors --port-forward
+skaffold dev --profile $1  --namespace default --force-colors --port-forward
 
 #http://127.0.0.1:8080/v1/symbol
 

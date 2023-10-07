@@ -59,7 +59,6 @@ public class StockRepository {
                     .withReturnValues(ReturnValue.NONE);
             stockTable().updateItem(updateItemSpec);
         } catch (Exception e) {
-            e.printStackTrace();
             log.info("Unable to update status for the stockKey: {}, please activate the site first, error: {}", stockKey, e.getMessage());
         }
     }
@@ -84,7 +83,6 @@ public class StockRepository {
     }
 
     public List<Stock> all() {
-        dynamoDB.listTables().forEach(System.out::println);
         var scanOutcomes = stockTable().scan(new ScanSpec()
                 .withAttributesToGet(STOCK, ENABLED, PRICE));
 

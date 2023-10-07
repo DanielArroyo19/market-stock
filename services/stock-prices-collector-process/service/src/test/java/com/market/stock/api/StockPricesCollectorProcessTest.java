@@ -90,4 +90,28 @@ public class StockPricesCollectorProcessTest {
         assertThat(result.size()).isEqualTo(3);
         // Add your assertions based on the processing logic in StockPricesCollectorProcess
     }
+
+    @Test
+    public void testStockPricesCollectorProcessNoFilterTwo() {
+        // Send input data to the input topic
+        Quote expected = Quote.newBuilder().setSymbol(Quote.Symbol.newBuilder().setSymbol("AAL").build()).setLast(5.0).build();
+        Quote notExpected = Quote.newBuilder().setSymbol(Quote.Symbol.newBuilder().setSymbol("AAL").build()).setLast(4.0).build();
+        Quote notExpected2 = Quote.newBuilder().setSymbol(Quote.Symbol.newBuilder().setSymbol("AAL").build()).setLast(3.0).build();
+        Quote expected2 = Quote.newBuilder().setSymbol(Quote.Symbol.newBuilder().setSymbol("VOO").build()).setLast(5.0).build();
+        Quote noExpected3 = Quote.newBuilder().setSymbol(Quote.Symbol.newBuilder().setSymbol("VOO").build()).setLast(5.0).build();
+
+
+
+        inputTopic.pipeInput(notExpected.getSymbol().getSymbol(), notExpected);
+        inputTopic.pipeInput(notExpected2.getSymbol().getSymbol(), notExpected2);
+        inputTopic.pipeInput(expected.getSymbol().getSymbol(), expected);
+        inputTopic.pipeInput(noExpected3.getSymbol().getSymbol(), noExpected3);
+        inputTopic.pipeInput(expected2.getSymbol().getSymbol(), expected2);
+
+        // Read and verify output from the output topic
+        var result = outputTopic.readKeyValuesToList();
+        assertThat(result).isNotNull();
+        assertThat(result.size()).isEqualTo(4);
+        // Add your assertions based on the processing logic in StockPricesCollectorProcess
+    }
 }

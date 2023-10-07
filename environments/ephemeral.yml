@@ -1,0 +1,19 @@
+env:
+  REACT_APP_API_ROOT_URL : http://127.0.0.1:8080
+  DYNAMO_ENDPOINT: https://dynamodb.us-east-2.amazonaws.com
+  KAFKA_BOOSTRAP_URL: pkc-921jm.us-east-2.aws.confluent.cloud:9092
+  KAFKA_STATE_DIR: /tmp/store
+  STORAGE_CLASS: standard
+  STORAGE_SIZE: 64Mi
+  KAFKA_STREAMS_GROUP_INSTANCE_ID: market-stock
+  KAFKA_SECURITY_PROTOCOL: SASL_SSL
+  KAFKA_SECURITY_MECHANISM: PLAIN
+  KAFKA_ENVIRONMENT_PREFIX: test
+  CONFLUENT_CLOUD_API_KEY : some
+  CONFLUENT_CLOUD_API_SECRET : key
+
+
+localDev: false
+localDevEnv:
+  LOCAL_AWS_ACCESS_KEY_ID: "root"
+  LOCAL_AWS_SECRET_ACCESS_KEY: "root"

@@ -6,22 +6,12 @@ import os
 import boto3
 
 # Specify the region name
-region_name = 'us-west-2'
+region_name = 'us-east-2'
 endpoint_url = os.environ['DYNAMO_URL']  # Specify the URL of your local DynamoDB endpoint
-
-print(endpoint_url)
-print(region_name)
-
 
 aws_access_key_id = os.environ['AWS_ACCESS_KEY_ID']
 aws_secret_access_key = os.environ['AWS_SECRET_ACCESS_KEY']
 
-print(aws_access_key_id)
-print(aws_secret_access_key)
-
-
-
-# Create DynamoDB client with credentials
 dynamodb = boto3.client('dynamodb',
                         region_name=region_name,
                         endpoint_url=endpoint_url,
@@ -45,12 +35,19 @@ sys.path.append("protobuf")
 
 # Set up Kafka broker connection details
 bootstrap_servers = os.environ.get('KAFKA_BOOSTRAP_URL','127.0.0.1:31090')
-print(bootstrap_servers)
+security_protocol = os.environ.get('KAFKA_SECURITY_PROTOCOL','SASL_PLAINTEXT')
+sasl_mechanism = os.environ.get('KAFKA_SECURITY_MECHANISM','PLAIN')
+sasl_plain_username = os.environ.get('KAFKA_CLUSTER_API_KEY','root')
+sasl_plain_password = os.environ.get('KAFKA_CLUSTER_API_SECRET','root')
 
 # Create Kafka producer instance
-producer = KafkaProducer(bootstrap_servers=bootstrap_servers,
+producer = KafkaProducer(security_protocol=security_protocol,
+                         bootstrap_servers=bootstrap_servers,
                          key_serializer=str.encode,
-                         value_serializer=lambda v: v.SerializeToString())
+                         value_serializer=lambda v: v.SerializeToString(),
+                         sasl_mechanism=sasl_mechanism,
+                         sasl_plain_username=sasl_plain_username,
+                         sasl_plain_password=sasl_plain_password)
 
 # Define the topic to which you want to send the message
 topic = 'market.quotes.price'
@@ -71,7 +68,6 @@ if __name__ == '__main__':
 
 
         msft = yf.Ticker(attribute_value)
-        print(msft.info)
         if(msft.info):
 
             quote = Quotes_pb2.Quote()
@@ -82,7 +78,6 @@ if __name__ == '__main__':
             quote.ask = msft.info.get('ask') if msft.info.get('ask') is not None else 0
             quote.transactionTimestamp.seconds = int(time.time())
 
-            print(quote)
             producer.send(topic, value=quote, key=quote.symbol.symbol)
 
     # Close the Kafka producer connection

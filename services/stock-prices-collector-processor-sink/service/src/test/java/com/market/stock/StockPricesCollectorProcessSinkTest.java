@@ -45,7 +45,7 @@ public class StockPricesCollectorProcessSinkTest {
         props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
 
         // Create the topology and build the test driver
-        StockPricesCollectorProcessSink stockPricesCollectorProcess = new StockPricesCollectorProcessSink(stockRepository);
+        StockPricesCollectorProcessorSink stockPricesCollectorProcess = new StockPricesCollectorProcessorSink(stockRepository);
         Topology topology = stockPricesCollectorProcess.buildTopology();
         testDriver = new TopologyTestDriver(topology, props);
 
