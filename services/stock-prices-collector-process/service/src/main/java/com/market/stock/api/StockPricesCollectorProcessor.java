@@ -44,7 +44,7 @@ public class StockPricesCollectorProcessor implements ProcessorSupplier<String, 
         }
 
         @Override
-        public void process(Record<String, Quote> recordToProcess) {
+        public void process(org.apache.kafka.streams.processor.api.Record<String, Quote> recordToProcess) {
             Quote quoteStored = store.get(recordToProcess.key());
             if(quoteStored == null){
                 quoteStored = Quote.newBuilder().setSymbol(Quote.Symbol.newBuilder().setSymbol(recordToProcess.key()).build()).setLast(0.0).build();
